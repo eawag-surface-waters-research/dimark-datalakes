@@ -1,0 +1,576 @@
+station;date;variable;method;depth;old_value;new_value;level;action;reason;l0_row
+bled_zahodna_kotanja;2011-08-01;Chla_probe;;0;0.88;;L2;L1_only_excluded_depth;"Depth 0.0 m is listed in exclude_depths (notes/stations.json); kept in Level1 only";251747
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;1.14;1.14;1.0;L2;depth_snapped;Depth 1.14 m snapped to nominal depth 1.0 m in Level2 (old/new values are depths);251607
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;2.01;2.01;2.0;L2;depth_snapped;Depth 2.01 m snapped to nominal depth 2.0 m in Level2 (old/new values are depths);251608
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;2.99;2.99;3.0;L2;depth_snapped;Depth 2.99 m snapped to nominal depth 3.0 m in Level2 (old/new values are depths);251609
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;4.05;4.05;4.0;L2;depth_snapped;Depth 4.05 m snapped to nominal depth 4.0 m in Level2 (old/new values are depths);251610
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;5.97;5.97;6.0;L2;depth_snapped;Depth 5.97 m snapped to nominal depth 6.0 m in Level2 (old/new values are depths);251612
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;6.99;6.99;7.0;L2;depth_snapped;Depth 6.99 m snapped to nominal depth 7.0 m in Level2 (old/new values are depths);251613
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;7.98;7.98;8.0;L2;depth_snapped;Depth 7.98 m snapped to nominal depth 8.0 m in Level2 (old/new values are depths);251614
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;9.02;9.02;9.0;L2;depth_snapped;Depth 9.02 m snapped to nominal depth 9.0 m in Level2 (old/new values are depths);251615
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;11.03;11.03;11.0;L2;depth_snapped;Depth 11.03 m snapped to nominal depth 11.0 m in Level2 (old/new values are depths);251617
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;11.95;11.95;12.0;L2;depth_snapped;Depth 11.95 m snapped to nominal depth 12.0 m in Level2 (old/new values are depths);251618
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;12.97;12.97;13.0;L2;depth_snapped;Depth 12.97 m snapped to nominal depth 13.0 m in Level2 (old/new values are depths);251619
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;13.98;13.98;14.0;L2;depth_snapped;Depth 13.98 m snapped to nominal depth 14.0 m in Level2 (old/new values are depths);251620
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;14.98;14.98;15.0;L2;depth_snapped;Depth 14.98 m snapped to nominal depth 15.0 m in Level2 (old/new values are depths);251621
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;16.01;16.01;16.0;L2;depth_snapped;Depth 16.01 m snapped to nominal depth 16.0 m in Level2 (old/new values are depths);251622
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;17.05;17.05;17.0;L2;depth_snapped;Depth 17.05 m snapped to nominal depth 17.0 m in Level2 (old/new values are depths);251623
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;17.99;17.99;18.0;L2;depth_snapped;Depth 17.99 m snapped to nominal depth 18.0 m in Level2 (old/new values are depths);251624
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;18.98;18.98;19.0;L2;depth_snapped;Depth 18.98 m snapped to nominal depth 19.0 m in Level2 (old/new values are depths);251625
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;19.99;19.99;20.0;L2;depth_snapped;Depth 19.99 m snapped to nominal depth 20.0 m in Level2 (old/new values are depths);251626
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;21.02;21.02;21.0;L2;depth_snapped;Depth 21.02 m snapped to nominal depth 21.0 m in Level2 (old/new values are depths);251627
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;21.98;21.98;22.0;L2;depth_snapped;Depth 21.98 m snapped to nominal depth 22.0 m in Level2 (old/new values are depths);251628
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;23.01;23.01;23.0;L2;depth_snapped;Depth 23.01 m snapped to nominal depth 23.0 m in Level2 (old/new values are depths);251629
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;23.99;23.99;24.0;L2;depth_snapped;Depth 23.99 m snapped to nominal depth 24.0 m in Level2 (old/new values are depths);251630
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;24.95;24.95;25.0;L2;depth_snapped;Depth 24.95 m snapped to nominal depth 25.0 m in Level2 (old/new values are depths);251631
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;25.91;25.91;26.0;L2;depth_snapped;Depth 25.91 m snapped to nominal depth 26.0 m in Level2 (old/new values are depths);251632
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;26.87;26.87;27.0;L2;depth_snapped;Depth 26.87 m snapped to nominal depth 27.0 m in Level2 (old/new values are depths);251633
+bled_zahodna_kotanja;2011-03-24;Chla_probe;;27.83;27.83;28.0;L2;depth_snapped;Depth 27.83 m snapped to nominal depth 28.0 m in Level2 (old/new values are depths);251634
+bled_zahodna_kotanja;1985-01-31;Temp;;0.5;3.6;3.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 3.6) within 0.05; named-method row kept";173874
+bled_zahodna_kotanja;1985-04-08;Temp;;0.5;8.6;8.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.6) within 0.05; named-method row kept";173889
+bled_zahodna_kotanja;1985-04-29;Temp;;0.5;9.1;9.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.1) within 0.05; named-method row kept";173900
+bled_zahodna_kotanja;1985-06-04;Temp;;0.5;21.0;21.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.0) within 0.05; named-method row kept";173911
+bled_zahodna_kotanja;1985-06-25;Temp;;0.5;19.0;19.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.0) within 0.05; named-method row kept";173922
+bled_zahodna_kotanja;1985-07-24;Temp;;0.5;23.4;23.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.4) within 0.05; named-method row kept";173933
+bled_zahodna_kotanja;1985-08-19;Temp;;0.5;23.0;23.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.0) within 0.05; named-method row kept";173942
+bled_zahodna_kotanja;1985-09-11;Temp;;0.5;19.9;19.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.9) within 0.05; named-method row kept";173950
+bled_zahodna_kotanja;1985-10-17;Temp;;0.5;17.0;17.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.0) within 0.05; named-method row kept";173961
+bled_zahodna_kotanja;1985-11-14;Temp;;0.5;9.8;9.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.8) within 0.05; named-method row kept";173972
+bled_zahodna_kotanja;1986-01-31;Temp;;0.5;3.6;3.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 3.6) within 0.05; named-method row kept";173983
+bled_zahodna_kotanja;1986-04-08;Temp;;0.5;8.6;8.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.6) within 0.05; named-method row kept";173998
+bled_zahodna_kotanja;1986-04-29;Temp;;0.5;9.1;9.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.1) within 0.05; named-method row kept";174009
+bled_zahodna_kotanja;1986-06-04;Temp;;0.5;21.0;21.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.0) within 0.05; named-method row kept";174020
+bled_zahodna_kotanja;1986-06-25;Temp;;0.5;19.0;19.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.0) within 0.05; named-method row kept";174031
+bled_zahodna_kotanja;1986-07-24;Temp;;0.5;23.4;23.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.4) within 0.05; named-method row kept";174042
+bled_zahodna_kotanja;1986-08-19;Temp;;0.5;23.0;23.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.0) within 0.05; named-method row kept";174051
+bled_zahodna_kotanja;1986-09-11;Temp;;0.5;19.9;19.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.9) within 0.05; named-method row kept";174059
+bled_zahodna_kotanja;1986-10-17;Temp;;0.5;17.0;17.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.0) within 0.05; named-method row kept";174070
+bled_zahodna_kotanja;1986-11-14;Temp;;0.5;9.8;9.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.8) within 0.05; named-method row kept";174081
+bled_zahodna_kotanja;1987-02-27;Temp;;0.5;2.0;2.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 2.0) within 0.05; named-method row kept";174091
+bled_zahodna_kotanja;1987-04-09;Temp;;0.5;3.8;3.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 3.8) within 0.05; named-method row kept";174106
+bled_zahodna_kotanja;1987-05-07;Temp;;0.5;11.5;11.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.5) within 0.05; named-method row kept";174120
+bled_zahodna_kotanja;1987-06-12;Temp;;0.5;18.9;18.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.9) within 0.05; named-method row kept";174135
+bled_zahodna_kotanja;1987-06-29;Temp;;0.5;21.2;21.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.2) within 0.05; named-method row kept";174150
+bled_zahodna_kotanja;1987-07-28;Temp;;0.5;22.6;22.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.6) within 0.05; named-method row kept";174165
+bled_zahodna_kotanja;1987-08-25;Temp;;0.5;21.5;21.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.5) within 0.05; named-method row kept";174180
+bled_zahodna_kotanja;1987-09-23;Temp;;0.5;21.9;21.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.9) within 0.05; named-method row kept";174195
+bled_zahodna_kotanja;1987-10-21;Temp;;0.5;14.3;14.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 14.3) within 0.05; named-method row kept";174210
+bled_zahodna_kotanja;1987-11-23;Temp;;0.5;8.1;8.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.1) within 0.05; named-method row kept";174225
+bled_zahodna_kotanja;1987-12-22;Temp;;0.5;5.6;5.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.6) within 0.05; named-method row kept";174240
+bled_zahodna_kotanja;1988-01-19;Temp;;0.5;4.2;4.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.2) within 0.05; named-method row kept";174255
+bled_zahodna_kotanja;1988-02-16;Temp;;0.5;3.8;3.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 3.8) within 0.05; named-method row kept";174270
+bled_zahodna_kotanja;1988-03-14;Temp;;0.5;4.3;4.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.3) within 0.05; named-method row kept";174285
+bled_zahodna_kotanja;1988-04-11;Temp;;0.5;7.2;7.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.2) within 0.05; named-method row kept";174300
+bled_zahodna_kotanja;1988-05-09;Temp;;0.5;16.6;16.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.6) within 0.05; named-method row kept";174315
+bled_zahodna_kotanja;1988-06-07;Temp;;0.5;17.3;17.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.3) within 0.05; named-method row kept";174330
+bled_zahodna_kotanja;1988-07-11;Temp;;0.5;23.0;23.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.0) within 0.05; named-method row kept";174344
+bled_zahodna_kotanja;1988-08-03;Temp;;0.5;24.4;24.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.4) within 0.05; named-method row kept";174359
+bled_zahodna_kotanja;1988-09-19;Temp;;0.5;17.1;17.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.1) within 0.05; named-method row kept";174374
+bled_zahodna_kotanja;1988-10-26;Temp;;0.5;13.6;13.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 13.6) within 0.05; named-method row kept";174389
+bled_zahodna_kotanja;1988-11-21;Temp;;0.5;7.2;7.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.2) within 0.05; named-method row kept";174404
+bled_zahodna_kotanja;1988-12-20;Temp;;0.5;3.8;3.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 3.8) within 0.05; named-method row kept";174409
+bled_zahodna_kotanja;1989-01-24;Temp;;0.5;1.1;1.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 1.1) within 0.05; named-method row kept";174424
+bled_zahodna_kotanja;1989-03-01;Temp;;0.5;4.7;4.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.7) within 0.05; named-method row kept";174439
+bled_zahodna_kotanja;1989-03-21;Temp;;0.5;6.3;6.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.3) within 0.05; named-method row kept";174454
+bled_zahodna_kotanja;1989-04-19;Temp;;0.5;12.0;12.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.0) within 0.05; named-method row kept";174469
+bled_zahodna_kotanja;1989-05-16;Temp;;0.5;13.0;13.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 13.0) within 0.05; named-method row kept";174484
+bled_zahodna_kotanja;1989-06-13;Temp;;0.5;17.6;17.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.6) within 0.05; named-method row kept";174499
+bled_zahodna_kotanja;1989-07-06;Temp;;0.5;21.8;21.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.8) within 0.05; named-method row kept";174514
+bled_zahodna_kotanja;1989-08-08;Temp;;0.5;22.9;22.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.9) within 0.05; named-method row kept";174529
+bled_zahodna_kotanja;1989-09-13;Temp;;0.5;19.7;19.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.7) within 0.05; named-method row kept";174544
+bled_zahodna_kotanja;1989-10-10;Temp;;0.5;17.6;17.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.6) within 0.05; named-method row kept";174559
+bled_zahodna_kotanja;1989-11-02;Temp;;0.5;13.7;13.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 13.7) within 0.05; named-method row kept";174574
+bled_zahodna_kotanja;1990-01-11;Temp;;0.5;3.4;3.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 3.4) within 0.05; named-method row kept";174589
+bled_zahodna_kotanja;1990-03-13;Temp;;0.5;8.2;8.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.2) within 0.05; named-method row kept";174604
+bled_zahodna_kotanja;1990-04-10;Temp;;0.5;8.5;8.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.5) within 0.05; named-method row kept";174619
+bled_zahodna_kotanja;1990-05-07;Temp;;0.5;17.9;17.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.9) within 0.05; named-method row kept";174634
+bled_zahodna_kotanja;1990-06-05;Temp;;0.5;19.3;19.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.3) within 0.05; named-method row kept";174649
+bled_zahodna_kotanja;1990-06-28;Temp;;0.5;22.5;22.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.5) within 0.05; named-method row kept";174664
+bled_zahodna_kotanja;1990-07-24;Temp;;0.5;23.7;23.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.7) within 0.05; named-method row kept";174679
+bled_zahodna_kotanja;1990-08-21;Temp;;0.5;22.8;22.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.8) within 0.05; named-method row kept";174694
+bled_zahodna_kotanja;1990-09-21;Temp;;0.5;18.1;18.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.1) within 0.05; named-method row kept";174701
+bled_zahodna_kotanja;1990-10-16;Temp;;0.5;15.5;15.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.5) within 0.05; named-method row kept";174716
+bled_zahodna_kotanja;1990-11-13;Temp;;0.5;9.5;9.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.5) within 0.05; named-method row kept";174731
+bled_zahodna_kotanja;1990-12-12;Temp;;0.5;6.1;6.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.1) within 0.05; named-method row kept";174746
+bled_zahodna_kotanja;1991-01-15;Temp;;0.5;4.2;4.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.2) within 0.05; named-method row kept";174761
+bled_zahodna_kotanja;1991-02-19;Temp;;0.5;2.8;2.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 2.8) within 0.05; named-method row kept";174776
+bled_zahodna_kotanja;1991-03-21;Temp;;0.5;8.3;8.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.3) within 0.05; named-method row kept";174791
+bled_zahodna_kotanja;1991-04-16;Temp;;0.5;12.8;12.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.8) within 0.05; named-method row kept";174806
+bled_zahodna_kotanja;1991-05-14;Temp;;0.5;11.7;11.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.7) within 0.05; named-method row kept";174821
+bled_zahodna_kotanja;1991-06-18;Temp;;0.5;18.5;18.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.5) within 0.05; named-method row kept";174836
+bled_zahodna_kotanja;1991-07-15;Temp;;0.5;22.3;22.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.3) within 0.05; named-method row kept";174849
+bled_zahodna_kotanja;1991-08-13;Temp;;0.5;23.4;23.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.4) within 0.05; named-method row kept";174864
+bled_zahodna_kotanja;1991-09-17;Temp;;0.5;19.3;19.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.3) within 0.05; named-method row kept";174879
+bled_zahodna_kotanja;1991-10-15;Temp;;0.5;15.7;15.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.7) within 0.05; named-method row kept";174894
+bled_zahodna_kotanja;1991-11-19;Temp;;0.5;7.6;7.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.6) within 0.05; named-method row kept";174909
+bled_zahodna_kotanja;1991-12-12;Temp;;0.5;5.0;5.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.0) within 0.05; named-method row kept";174924
+bled_zahodna_kotanja;1992-01-21;Temp;;0.5;3.2;3.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 3.2) within 0.05; named-method row kept";174939
+bled_zahodna_kotanja;1992-03-17;Temp;;0.5;5.4;5.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.4) within 0.05; named-method row kept";174954
+bled_zahodna_kotanja;1992-04-14;Temp;;0.5;7.4;7.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.4) within 0.05; named-method row kept";174969
+bled_zahodna_kotanja;1992-05-19;Temp;;0.5;18.1;18.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.1) within 0.05; named-method row kept";174984
+bled_zahodna_kotanja;1992-06-15;Temp;;0.5;17.7;17.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.7) within 0.05; named-method row kept";174999
+bled_zahodna_kotanja;1992-07-07;Temp;;0.5;20.5;20.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.5) within 0.05; named-method row kept";175014
+bled_zahodna_kotanja;1992-08-17;Temp;;0.5;23.1;23.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.1) within 0.05; named-method row kept";175029
+bled_zahodna_kotanja;1992-09-14;Temp;;0.5;19.9;19.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.9) within 0.05; named-method row kept";175044
+bled_zahodna_kotanja;1992-10-13;Temp;;0.5;15.5;15.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.5) within 0.05; named-method row kept";175059
+bled_zahodna_kotanja;1992-11-17;Temp;;0.5;9.8;9.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.8) within 0.05; named-method row kept";175074
+bled_zahodna_kotanja;1992-12-14;Temp;;0.5;7.6;7.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.6) within 0.05; named-method row kept";175089
+bled_zahodna_kotanja;1993-01-08;Temp;;0.5;3.3;3.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 3.3) within 0.05; named-method row kept";175104
+bled_zahodna_kotanja;1993-03-16;Temp;;0.5;5.5;5.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.5) within 0.05; named-method row kept";175119
+bled_zahodna_kotanja;1993-04-14;Temp;;0.5;9.0;9.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.0) within 0.05; named-method row kept";175134
+bled_zahodna_kotanja;1993-05-18;Temp;;0.5;19.0;19.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.0) within 0.05; named-method row kept";175146
+bled_zahodna_kotanja;1993-06-15;Temp;;0.5;20.7;20.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.7) within 0.05; named-method row kept";175158
+bled_zahodna_kotanja;1993-07-13;Temp;;0.5;20.0;20.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.0) within 0.05; named-method row kept";175173
+bled_zahodna_kotanja;1993-08-17;Temp;;0.5;24.1;24.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.1) within 0.05; named-method row kept";175186
+bled_zahodna_kotanja;1993-09-14;Temp;;0.5;18.3;18.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.3) within 0.05; named-method row kept";175199
+bled_zahodna_kotanja;1993-10-11;Temp;;0.5;16.0;16.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.0) within 0.05; named-method row kept";175211
+bled_zahodna_kotanja;1993-11-17;Temp;;0.5;9.5;9.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.5) within 0.05; named-method row kept";175224
+bled_zahodna_kotanja;1994-01-11;Temp;;0.5;4.7;4.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.7) within 0.05; named-method row kept";175236
+bled_zahodna_kotanja;1994-03-08;Temp;;0.5;5.28;5.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.3) within 0.05; named-method row kept";175251
+bled_zahodna_kotanja;1994-04-12;Temp;;0.5;8.19;8.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.2) within 0.05; named-method row kept";175266
+bled_zahodna_kotanja;1994-05-10;Temp;;0.5;15.48;15.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.5) within 0.05; named-method row kept";175281
+bled_zahodna_kotanja;1994-06-07;Temp;;0.5;18.83;18.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.8) within 0.05; named-method row kept";175296
+bled_zahodna_kotanja;1994-07-05;Temp;;0.5;25.83;25.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 25.8) within 0.05; named-method row kept";175311
+bled_zahodna_kotanja;1994-08-09;Temp;;0.5;24.73;24.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.7) within 0.05; named-method row kept";175326
+bled_zahodna_kotanja;1994-09-07;Temp;;0.5;22.22;22.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.2) within 0.05; named-method row kept";175341
+bled_zahodna_kotanja;1994-10-11;Temp;;0.5;15.85;15.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.9) within 0.05; named-method row kept";175356
+bled_zahodna_kotanja;1994-11-09;Temp;;0.5;12.29;12.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.3) within 0.05; named-method row kept";175371
+bled_zahodna_kotanja;1995-01-11;Temp;;0.5;4.91;4.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.9) within 0.05; named-method row kept";175386
+bled_zahodna_kotanja;1995-03-08;Temp;;0.5;4.89;4.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.9) within 0.05; named-method row kept";175401
+bled_zahodna_kotanja;1995-04-05;Temp;;0.5;8.57;8.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.6) within 0.05; named-method row kept";175416
+bled_zahodna_kotanja;1995-05-04;Temp;;0.5;14.46;14.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 14.5) within 0.05; named-method row kept";175431
+bled_zahodna_kotanja;1995-06-07;Temp;;0.5;17.95;18.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.0) within 0.05; named-method row kept";175446
+bled_zahodna_kotanja;1995-07-03;Temp;;0.5;22.35;22.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.4) within 0.05; named-method row kept";175461
+bled_zahodna_kotanja;1995-08-14;Temp;;0.5;24.16;24.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.2) within 0.05; named-method row kept";175476
+bled_zahodna_kotanja;1995-09-11;Temp;;0.5;18.59;18.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.6) within 0.05; named-method row kept";175491
+bled_zahodna_kotanja;1995-10-11;Temp;;0.5;16.8;16.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.8) within 0.05; named-method row kept";175506
+bled_zahodna_kotanja;1995-11-15;Temp;;0.5;10.14;10.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 10.1) within 0.05; named-method row kept";175521
+bled_zahodna_kotanja;1996-01-04;Temp;;0.5;4.76;4.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.8) within 0.05; named-method row kept";175536
+bled_zahodna_kotanja;1996-03-27;Temp;;0.5;6.31;6.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.3) within 0.05; named-method row kept";175551
+bled_zahodna_kotanja;1996-04-17;Temp;;0.5;8.66;8.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.7) within 0.05; named-method row kept";175566
+bled_zahodna_kotanja;1996-05-15;Temp;;0.5;16.05;16.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.1) within 0.05; named-method row kept";175581
+bled_zahodna_kotanja;1996-06-10;Temp;;0.5;23.49;23.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.5) within 0.05; named-method row kept";175596
+bled_zahodna_kotanja;1996-07-09;Temp;;0.5;18.59;18.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.6) within 0.05; named-method row kept";175611
+bled_zahodna_kotanja;1996-08-22;Temp;;0.5;22.59;22.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.6) within 0.05; named-method row kept";175626
+bled_zahodna_kotanja;1996-09-25;Temp;;0.5;15.78;15.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.8) within 0.05; named-method row kept";175641
+bled_zahodna_kotanja;1996-10-23;Temp;;0.5;13.37;13.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 13.4) within 0.05; named-method row kept";175656
+bled_zahodna_kotanja;1996-11-25;Temp;;0.5;9.26;9.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.3) within 0.05; named-method row kept";175671
+bled_zahodna_kotanja;1997-03-12;Temp;;0.5;7.68;7.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.7) within 0.05; named-method row kept";175686
+bled_zahodna_kotanja;1997-04-15;Temp;;0.5;8.64;8.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.6) within 0.05; named-method row kept";175701
+bled_zahodna_kotanja;1997-05-12;Temp;;0.5;13.32;13.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 13.3) within 0.05; named-method row kept";175716
+bled_zahodna_kotanja;1997-06-09;Temp;;0.5;19.49;19.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.5) within 0.05; named-method row kept";175731
+bled_zahodna_kotanja;1997-07-21;Temp;;0.5;21.86;21.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.9) within 0.05; named-method row kept";175746
+bled_zahodna_kotanja;1997-08-11;Temp;;0.5;22.65;22.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.7) within 0.05; named-method row kept";175761
+bled_zahodna_kotanja;1997-09-24;Temp;;0.5;19.58;19.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.6) within 0.05; named-method row kept";175776
+bled_zahodna_kotanja;1997-10-15;Temp;;0.5;16.39;16.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.4) within 0.05; named-method row kept";175791
+bled_zahodna_kotanja;1997-11-10;Temp;;0.5;11.18;11.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.2) within 0.05; named-method row kept";175806
+bled_zahodna_kotanja;1997-12-02;Temp;;0.5;8.28;8.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.3) within 0.05; named-method row kept";175821
+bled_zahodna_kotanja;1998-03-02;Temp;;0.5;6.01;6.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.0) within 0.05; named-method row kept";175836
+bled_zahodna_kotanja;1998-04-06;Temp;;0.5;9.11;9.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.1) within 0.05; named-method row kept";175851
+bled_zahodna_kotanja;1998-05-11;Temp;;0.5;17.04;17.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.0) within 0.05; named-method row kept";175866
+bled_zahodna_kotanja;1998-06-08;Temp;;0.5;21.09;21.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.1) within 0.05; named-method row kept";175881
+bled_zahodna_kotanja;1998-07-08;Temp;;0.5;21.4;21.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.4) within 0.05; named-method row kept";175896
+bled_zahodna_kotanja;1998-08-10;Temp;;0.5;25.39;25.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 25.4) within 0.05; named-method row kept";175911
+bled_zahodna_kotanja;1998-09-07;Temp;;0.5;21.11;21.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.1) within 0.05; named-method row kept";175926
+bled_zahodna_kotanja;1998-10-12;Temp;;0.5;15.98;16.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.0) within 0.05; named-method row kept";175941
+bled_zahodna_kotanja;1998-11-02;Temp;;0.5;12.29;12.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.3) within 0.05; named-method row kept";175956
+bled_zahodna_kotanja;1998-12-07;Temp;;0.5;6.48;6.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.5) within 0.05; named-method row kept";175971
+bled_zahodna_kotanja;1999-03-18;Temp;;0.5;5.14;5.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.1) within 0.05; named-method row kept";175986
+bled_zahodna_kotanja;1999-04-19;Temp;;0.5;9.98;10.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 10.0) within 0.05; named-method row kept";176001
+bled_zahodna_kotanja;1999-05-17;Temp;;0.5;17.14;17.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.1) within 0.05; named-method row kept";176016
+bled_zahodna_kotanja;1999-06-14;Temp;;0.5;20.95;21.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.0) within 0.05; named-method row kept";176031
+bled_zahodna_kotanja;1999-07-19;Temp;;0.5;20.95;21.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.0) within 0.05; named-method row kept";176046
+bled_zahodna_kotanja;1999-08-16;Temp;;0.5;22.82;22.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.8) within 0.05; named-method row kept";176061
+bled_zahodna_kotanja;1999-09-13;Temp;;0.5;21.86;21.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.9) within 0.05; named-method row kept";176076
+bled_zahodna_kotanja;1999-10-11;Temp;;0.5;17.53;17.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.5) within 0.05; named-method row kept";176091
+bled_zahodna_kotanja;1999-11-16;Temp;;0.5;10.63;10.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 10.6) within 0.05; named-method row kept";176106
+bled_zahodna_kotanja;1999-12-06;Temp;;0.5;6.49;6.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.5) within 0.05; named-method row kept";176116
+bled_zahodna_kotanja;2000-03-06;Temp;;0.5;5.28;5.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.3) within 0.05; named-method row kept";176126
+bled_zahodna_kotanja;2000-04-03;Temp;;0.5;4.76;4.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.8) within 0.05; named-method row kept";176136
+bled_zahodna_kotanja;2000-05-03;Temp;;0.5;16.7;16.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.7) within 0.05; named-method row kept";176151
+bled_zahodna_kotanja;2000-06-12;Temp;;0.5;23.32;23.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.3) within 0.05; named-method row kept";176166
+bled_zahodna_kotanja;2000-07-03;Temp;;0.5;23.67;23.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.7) within 0.05; named-method row kept";176181
+bled_zahodna_kotanja;2000-07-31;Temp;;0.5;22.17;22.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.2) within 0.05; named-method row kept";176196
+bled_zahodna_kotanja;2000-09-11;Temp;;0.5;20.89;20.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.9) within 0.05; named-method row kept";176211
+bled_zahodna_kotanja;2000-10-02;Temp;;0.5;18.73;18.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.7) within 0.05; named-method row kept";176225
+bled_zahodna_kotanja;2000-11-14;Temp;;0.5;11.88;11.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.9) within 0.05; named-method row kept";176240
+bled_zahodna_kotanja;2000-12-04;Temp;;0.5;9.79;9.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.8) within 0.05; named-method row kept";176255
+bled_zahodna_kotanja;2001-02-27;Temp;;0.5;5.11;5.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.1) within 0.05; named-method row kept";176270
+bled_zahodna_kotanja;2001-04-02;Temp;;0.5;9.54;9.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.5) within 0.05; named-method row kept";176285
+bled_zahodna_kotanja;2001-05-07;Temp;;0.5;15.02;15.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.0) within 0.05; named-method row kept";176300
+bled_zahodna_kotanja;2001-06-04;Temp;;0.5;18.45;18.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.5) within 0.05; named-method row kept";176315
+bled_zahodna_kotanja;2001-07-02;Temp;;0.5;22.33;22.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.3) within 0.05; named-method row kept";176330
+bled_zahodna_kotanja;2001-09-13;Temp;;0.5;18.84;18.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.8) within 0.05; named-method row kept";176345
+bled_zahodna_kotanja;2001-10-08;Temp;;0.5;17.16;17.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.2) within 0.05; named-method row kept";176360
+bled_zahodna_kotanja;2001-11-26;Temp;;0.5;8.43;8.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.4) within 0.05; named-method row kept";176375
+bled_zahodna_kotanja;2002-03-07;Temp;;0.5;5.28;5.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.3) within 0.05; named-method row kept";176390
+bled_zahodna_kotanja;2002-04-22;Temp;;0.5;10.15;10.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 10.2) within 0.05; named-method row kept";176405
+bled_zahodna_kotanja;2002-06-17;Temp;;0.5;22.24;22.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.2) within 0.05; named-method row kept";176420
+bled_zahodna_kotanja;2002-07-29;Temp;;0.5;23.1;23.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.1) within 0.05; named-method row kept";176435
+bled_zahodna_kotanja;2002-08-19;Temp;;0.5;21.84;21.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.8) within 0.05; named-method row kept";176450
+bled_zahodna_kotanja;2002-10-07;Temp;;0.5;16.13;16.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.1) within 0.05; named-method row kept";176465
+bled_zahodna_kotanja;2002-11-11;Temp;;0.5;11.19;11.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.2) within 0.05; named-method row kept";176480
+bled_zahodna_kotanja;2003-03-11;Temp;;0.5;5.85;5.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.9) within 0.05; named-method row kept";176495
+bled_zahodna_kotanja;2003-04-14;Temp;;0.5;8.41;8.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.4) within 0.05; named-method row kept";176510
+bled_zahodna_kotanja;2003-05-05;Temp;;0.5;17.42;17.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.4) within 0.05; named-method row kept";176525
+bled_zahodna_kotanja;2003-06-02;Temp;;0.5;20.07;20.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.1) within 0.05; named-method row kept";176540
+bled_zahodna_kotanja;2003-08-04;Temp;;0.5;24.94;24.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.9) within 0.05; named-method row kept";176555
+bled_zahodna_kotanja;2003-09-02;Temp;;0.5;22.6;22.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.6) within 0.05; named-method row kept";176570
+bled_zahodna_kotanja;2003-11-05;Temp;;0.5;11.57;11.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.6) within 0.05; named-method row kept";176585
+bled_zahodna_kotanja;2004-03-18;Temp;;0.5;6.0;6.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.0) within 0.05; named-method row kept";176600
+bled_zahodna_kotanja;2004-04-28;Temp;;0.5;11.91;11.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.9) within 0.05; named-method row kept";176615
+bled_zahodna_kotanja;2004-06-07;Temp;;0.5;18.01;18.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.0) within 0.05; named-method row kept";176630
+bled_zahodna_kotanja;2004-08-16;Temp;;0.5;23.35;23.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.4) within 0.05; named-method row kept";176645
+bled_zahodna_kotanja;2004-10-25;Temp;;0.5;14.86;14.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 14.9) within 0.05; named-method row kept";176674
+bled_zahodna_kotanja;2005-03-29;Temp;;0.5;7.52;7.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.5) within 0.05; named-method row kept";176689
+bled_zahodna_kotanja;2005-05-09;Temp;;0.5;14.61;14.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 14.6) within 0.05; named-method row kept";176704
+bled_zahodna_kotanja;2005-06-06;Temp;;0.5;19.87;19.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.9) within 0.05; named-method row kept";176719
+bled_zahodna_kotanja;2005-07-25;Temp;;0.5;23.09;23.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.1) within 0.05; named-method row kept";176734
+bled_zahodna_kotanja;2005-08-30;Temp;;0.5;21.15;21.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.2) within 0.05; named-method row kept";176749
+bled_zahodna_kotanja;2005-10-12;Temp;;0.5;16.18;16.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.2) within 0.05; named-method row kept";176764
+bled_zahodna_kotanja;2005-12-07;Temp;;0.5;7.64;7.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.6) within 0.05; named-method row kept";176779
+bled_zahodna_kotanja;2006-03-22;Temp;;0.5;5.69;5.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.7) within 0.05; named-method row kept";176794
+bled_zahodna_kotanja;2006-05-04;Temp;;0.5;14.14;14.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 14.1) within 0.05; named-method row kept";176809
+bled_zahodna_kotanja;2006-06-12;Temp;;0.5;16.59;16.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.6) within 0.05; named-method row kept";176824
+bled_zahodna_kotanja;2006-08-21;Temp;;0.5;20.63;20.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.6) within 0.05; named-method row kept";176839
+bled_zahodna_kotanja;2006-10-19;Temp;;0.5;15.71;15.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.7) within 0.05; named-method row kept";176854
+bled_zahodna_kotanja;2007-03-14;Temp;;0.5;7.2;7.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.2) within 0.05; named-method row kept";176869
+bled_zahodna_kotanja;2007-04-23;Temp;;0.5;15.1;15.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.1) within 0.05; named-method row kept";176887
+bled_zahodna_kotanja;2007-04-23;Temp;;1;15.01;15.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.0) within 0.05; named-method row kept";176888
+bled_zahodna_kotanja;2007-07-25;Temp;;0.5;23.69;23.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.7) within 0.05; named-method row kept";176909
+bled_zahodna_kotanja;2007-07-25;Temp;;1;23.49;23.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.5) within 0.05; named-method row kept";176910
+bled_zahodna_kotanja;2007-09-10;Temp;;0.5;19.34;19.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.3) within 0.05; named-method row kept";176929
+bled_zahodna_kotanja;2007-09-10;Temp;;1;19.29;19.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.3) within 0.05; named-method row kept";176930
+bled_zahodna_kotanja;2008-03-12;Temp;;0.5;5.37;5.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.4) within 0.05; named-method row kept";176942
+bled_zahodna_kotanja;2008-03-12;Temp;;1;5.14;5.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.1) within 0.05; named-method row kept";176943
+bled_zahodna_kotanja;2008-04-16;Temp;;0.5;8.43;8.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.4) within 0.05; named-method row kept";176958
+bled_zahodna_kotanja;2008-04-16;Temp;;1;8.43;8.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.4) within 0.05; named-method row kept";176959
+bled_zahodna_kotanja;2008-06-11;Temp;;0.5;20.6;20.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.6) within 0.05; named-method row kept";176977
+bled_zahodna_kotanja;2008-06-11;Temp;;1;20.58;20.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.6) within 0.05; named-method row kept";176978
+bled_zahodna_kotanja;2008-08-18;Temp;;0.5;22.33;22.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.3) within 0.05; named-method row kept";176997
+bled_zahodna_kotanja;2008-08-18;Temp;;1;22.26;22.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.3) within 0.05; named-method row kept";176998
+bled_zahodna_kotanja;2008-10-06;Temp;;0.5;15.12;15.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.1) within 0.05; named-method row kept";177016
+bled_zahodna_kotanja;2008-10-06;Temp;;1;15.09;15.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.1) within 0.05; named-method row kept";177017
+bled_zahodna_kotanja;2009-04-15;Temp;;0.5;12.4;12.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.4) within 0.05; named-method row kept";177033
+bled_zahodna_kotanja;2009-04-15;Temp;;1;12.25;12.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.3) within 0.05; named-method row kept";177034
+bled_zahodna_kotanja;2009-05-25;Temp;;0.5;20.27;20.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.3) within 0.05; named-method row kept";177051
+bled_zahodna_kotanja;2009-05-25;Temp;;1;19.85;19.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.9) within 0.05; named-method row kept";177052
+bled_zahodna_kotanja;2009-07-20;Temp;;0.5;22.04;22.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.0) within 0.05; named-method row kept";177071
+bled_zahodna_kotanja;2009-07-20;Temp;;1;22.0;22.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.0) within 0.05; named-method row kept";177072
+bled_zahodna_kotanja;2009-09-29;Temp;;0.5;19.4;19.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.4) within 0.05; named-method row kept";177091
+bled_zahodna_kotanja;2009-09-29;Temp;;1;19.39;19.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.4) within 0.05; named-method row kept";177092
+bled_zahodna_kotanja;2010-03-30;Temp;;0.5;7.6;7.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.6) within 0.05; named-method row kept";177112
+bled_zahodna_kotanja;2010-03-30;Temp;;1;7.37;7.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.4) within 0.05; named-method row kept";177113
+bled_zahodna_kotanja;2010-05-26;Temp;;0.5;16.88;16.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.9) within 0.05; named-method row kept";177132
+bled_zahodna_kotanja;2010-05-26;Temp;;1;16.75;16.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.8) within 0.05; named-method row kept";177133
+bled_zahodna_kotanja;2010-07-27;Temp;;0.5;23.64;23.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.6) within 0.05; named-method row kept";177160
+bled_zahodna_kotanja;2010-07-27;Temp;;1;23.57;23.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.6) within 0.05; named-method row kept";177161
+bled_zahodna_kotanja;2010-09-15;Temp;;0.5;19.57;19.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.6) within 0.05; named-method row kept";177189
+bled_zahodna_kotanja;2010-09-15;Temp;;1;19.49;19.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.5) within 0.05; named-method row kept";177190
+bled_zahodna_kotanja;2011-03-23;Temp;;0.5;5.86;5.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.9) within 0.05; named-method row kept";177218
+bled_zahodna_kotanja;2011-03-23;Temp;;1;5.46;5.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.5) within 0.05; named-method row kept";177219
+bled_zahodna_kotanja;2011-04-18;Temp;;0.5;11.81;11.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.8) within 0.05; named-method row kept";177247
+bled_zahodna_kotanja;2011-04-18;Temp;;1;11.27;11.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.3) within 0.05; named-method row kept";177248
+bled_zahodna_kotanja;2011-05-24;Temp;;0.5;19.2;19.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.2) within 0.05; named-method row kept";177273
+bled_zahodna_kotanja;2011-05-24;Temp;;1;19.05;19.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 19.1) within 0.05; named-method row kept";177274
+bled_zahodna_kotanja;2011-07-13;Temp;;0.5;25.12;25.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 25.1) within 0.05; named-method row kept";177302
+bled_zahodna_kotanja;2011-07-13;Temp;;1;24.18;24.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.2) within 0.05; named-method row kept";177303
+bled_zahodna_kotanja;2011-07-21;Temp;;0.5;22.88;22.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.9) within 0.05; named-method row kept";177332
+bled_zahodna_kotanja;2011-07-21;Temp;;1;22.74;22.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.7) within 0.05; named-method row kept";177333
+bled_zahodna_kotanja;2011-08-01;Temp;;0.5;21.33;21.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.3) within 0.05; named-method row kept";177361
+bled_zahodna_kotanja;2011-08-01;Temp;;1;21.25;21.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.3) within 0.05; named-method row kept";177362
+bled_zahodna_kotanja;2011-09-27;Temp;;0.5;20.4;20.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.4) within 0.05; named-method row kept";177391
+bled_zahodna_kotanja;2011-09-27;Temp;;1;20.35;20.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.4) within 0.05; named-method row kept";177392
+bled_zahodna_kotanja;2011-11-30;Temp;;0.5;8.41;8.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.4) within 0.05; named-method row kept";177415
+bled_zahodna_kotanja;2011-11-30;Temp;;1;8.28;8.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.3) within 0.05; named-method row kept";177416
+bled_zahodna_kotanja;2012-03-14;Temp;;0.5;6.35;6.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.4) within 0.05; named-method row kept";177444
+bled_zahodna_kotanja;2012-03-14;Temp;;1;6.06;6.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.1) within 0.05; named-method row kept";177445
+bled_zahodna_kotanja;2012-05-24;Temp;;0.5;15.9;15.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.9) within 0.05; named-method row kept";177467
+bled_zahodna_kotanja;2012-05-24;Temp;;1;15.88;15.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.9) within 0.05; named-method row kept";177468
+bled_zahodna_kotanja;2012-07-17;Temp;;0.5;22.89;22.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.9) within 0.05; named-method row kept";177490
+bled_zahodna_kotanja;2012-07-17;Temp;;1;22.65;22.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.7) within 0.05; named-method row kept";177491
+bled_zahodna_kotanja;2012-08-08;Temp;;0.5;24.48;24.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.5) within 0.05; named-method row kept";177520
+bled_zahodna_kotanja;2012-08-08;Temp;;1;24.42;24.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.4) within 0.05; named-method row kept";177521
+bled_zahodna_kotanja;2012-09-17;Temp;;0.5;20.24;20.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.2) within 0.05; named-method row kept";177548
+bled_zahodna_kotanja;2012-09-17;Temp;;1;20.09;20.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.1) within 0.05; named-method row kept";177549
+bled_zahodna_kotanja;2012-11-15;Temp;;0.5;11.72;11.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.7) within 0.05; named-method row kept";177577
+bled_zahodna_kotanja;2012-11-15;Temp;;1;11.72;11.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.7) within 0.05; named-method row kept";177578
+bled_zahodna_kotanja;2013-04-08;Temp;;0.5;5.68;5.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.7) within 0.05; named-method row kept";177604
+bled_zahodna_kotanja;2013-04-08;Temp;;1;5.69;5.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.7) within 0.05; named-method row kept";177605
+bled_zahodna_kotanja;2013-06-03;Temp;;0.5;15.89;15.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.9) within 0.05; named-method row kept";177627
+bled_zahodna_kotanja;2013-06-03;Temp;;1;15.88;15.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.9) within 0.05; named-method row kept";177628
+bled_zahodna_kotanja;2013-07-19;Temp;;0.5;23.52;23.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.5) within 0.05; named-method row kept";177651
+bled_zahodna_kotanja;2013-07-19;Temp;;1;23.48;23.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.5) within 0.05; named-method row kept";177652
+bled_zahodna_kotanja;2013-08-07;Temp;;0.5;25.18;25.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 25.2) within 0.05; named-method row kept";177680
+bled_zahodna_kotanja;2013-08-07;Temp;;1;25.15;25.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 25.2) within 0.05; named-method row kept";177681
+bled_zahodna_kotanja;2013-09-05;Temp;;0.5;22.28;22.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.3) within 0.05; named-method row kept";177709
+bled_zahodna_kotanja;2013-09-05;Temp;;1;21.96;22.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.0) within 0.05; named-method row kept";177710
+bled_zahodna_kotanja;2013-10-08;Temp;;0.5;16.03;16.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.0) within 0.05; named-method row kept";177738
+bled_zahodna_kotanja;2013-10-08;Temp;;1;16.04;16.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 16.0) within 0.05; named-method row kept";177739
+bled_zahodna_kotanja;2014-03-11;Temp;;0.5;7.28;7.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.3) within 0.05; named-method row kept";177767
+bled_zahodna_kotanja;2014-03-11;Temp;;1;6.84;6.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.8) within 0.05; named-method row kept";177768
+bled_zahodna_kotanja;2014-05-20;Temp;;0.5;14.78;14.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 14.8) within 0.05; named-method row kept";177796
+bled_zahodna_kotanja;2014-05-20;Temp;;1;14.63;14.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 14.6) within 0.05; named-method row kept";177797
+bled_zahodna_kotanja;2014-06-11;Temp;;0.5;22.67;22.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.7) within 0.05; named-method row kept";177825
+bled_zahodna_kotanja;2014-06-11;Temp;;1;22.33;22.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.3) within 0.05; named-method row kept";177826
+bled_zahodna_kotanja;2014-08-07;Temp;;0.5;22.59;22.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.6) within 0.05; named-method row kept";177853
+bled_zahodna_kotanja;2014-08-07;Temp;;1;22.48;22.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.5) within 0.05; named-method row kept";177854
+bled_zahodna_kotanja;2014-08-22;Temp;;0.5;21.09;21.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.1) within 0.05; named-method row kept";177881
+bled_zahodna_kotanja;2014-08-22;Temp;;1;21.09;21.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.1) within 0.05; named-method row kept";177882
+bled_zahodna_kotanja;2014-09-09;Temp;;0.5;20.24;20.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.2) within 0.05; named-method row kept";177909
+bled_zahodna_kotanja;2014-09-09;Temp;;1;20.09;20.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.1) within 0.05; named-method row kept";177910
+bled_zahodna_kotanja;2014-11-19;Temp;;0.5;12.54;12.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.5) within 0.05; named-method row kept";177938
+bled_zahodna_kotanja;2014-11-19;Temp;;1;12.51;12.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.5) within 0.05; named-method row kept";177939
+bled_zahodna_kotanja;2015-01-28;Temp;;0.5;5.1;5.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.1) within 0.05; named-method row kept";177965
+bled_zahodna_kotanja;2015-01-28;Temp;;1;5.1;5.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.1) within 0.05; named-method row kept";177966
+bled_zahodna_kotanja;2015-03-30;Temp;;0.5;8.02;8.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.0) within 0.05; named-method row kept";177985
+bled_zahodna_kotanja;2015-03-30;Temp;;1;7.71;7.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.7) within 0.05; named-method row kept";177986
+bled_zahodna_kotanja;2015-05-05;Temp;;0.5;15.27;15.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.3) within 0.05; named-method row kept";178013
+bled_zahodna_kotanja;2015-05-05;Temp;;1;15.16;15.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.2) within 0.05; named-method row kept";178014
+bled_zahodna_kotanja;2015-06-01;Temp;;0.5;18.29;18.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.3) within 0.05; named-method row kept";178041
+bled_zahodna_kotanja;2015-06-01;Temp;;1;17.97;18.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.0) within 0.05; named-method row kept";178042
+bled_zahodna_kotanja;2015-07-14;Temp;;0.5;24.2;24.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.2) within 0.05; named-method row kept";178070
+bled_zahodna_kotanja;2015-07-14;Temp;;1;24.0;24.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.0) within 0.05; named-method row kept";178071
+bled_zahodna_kotanja;2015-07-21;Temp;;0.5;25.53;25.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 25.5) within 0.05; named-method row kept";178099
+bled_zahodna_kotanja;2015-07-21;Temp;;1;25.55;25.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 25.6) within 0.05; named-method row kept";178100
+bled_zahodna_kotanja;2015-08-18;Temp;;0.5;24.17;24.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.2) within 0.05; named-method row kept";178117
+bled_zahodna_kotanja;2015-08-18;Temp;;1;24.17;24.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.2) within 0.05; named-method row kept";178118
+bled_zahodna_kotanja;2015-09-29;Temp;;0.5;17.29;17.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.3) within 0.05; named-method row kept";178144
+bled_zahodna_kotanja;2015-09-29;Temp;;1;17.31;17.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.3) within 0.05; named-method row kept";178145
+bled_zahodna_kotanja;2015-10-27;Temp;;0.5;13.4;13.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 13.4) within 0.05; named-method row kept";178173
+bled_zahodna_kotanja;2015-10-27;Temp;;1;13.5;13.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 13.5) within 0.05; named-method row kept";178174
+bled_zahodna_kotanja;2015-11-16;Temp;;0.5;11.75;11.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.8) within 0.05; named-method row kept";178195
+bled_zahodna_kotanja;2015-11-16;Temp;;1;11.77;11.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.8) within 0.05; named-method row kept";178196
+bled_zahodna_kotanja;2015-12-14;Temp;;0.5;7.8;7.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.8) within 0.05; named-method row kept";178224
+bled_zahodna_kotanja;2015-12-14;Temp;;1;7.8;7.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.8) within 0.05; named-method row kept";178225
+bled_zahodna_kotanja;2016-03-24;Temp;;0.5;6.6;6.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.6) within 0.05; named-method row kept";178246
+bled_zahodna_kotanja;2016-03-24;Temp;;1;6.6;6.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.6) within 0.05; named-method row kept";178247
+bled_zahodna_kotanja;2016-05-19;Temp;;0.5;15.0;15.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.0) within 0.05; named-method row kept";178271
+bled_zahodna_kotanja;2016-05-19;Temp;;1;15.0;15.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.0) within 0.05; named-method row kept";178272
+bled_zahodna_kotanja;2016-08-04;Temp;;0.5;23.5;23.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.5) within 0.05; named-method row kept";178300
+bled_zahodna_kotanja;2016-08-04;Temp;;1;23.5;23.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.5) within 0.05; named-method row kept";178301
+bled_zahodna_kotanja;2016-11-14;Temp;;0.5;11.0;11.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.0) within 0.05; named-method row kept";178327
+bled_zahodna_kotanja;2016-11-14;Temp;;1;11.0;11.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.0) within 0.05; named-method row kept";178328
+bled_zahodna_kotanja;2017-03-15;Temp;;0.5;7.3;7.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.3) within 0.05; named-method row kept";178355
+bled_zahodna_kotanja;2017-03-15;Temp;;1;6.9;6.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.9) within 0.05; named-method row kept";178356
+bled_zahodna_kotanja;2017-05-23;Temp;;0.5;18.2;18.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 18.2) within 0.05; named-method row kept";178384
+bled_zahodna_kotanja;2017-05-23;Temp;;1;17.9;17.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.9) within 0.05; named-method row kept";178385
+bled_zahodna_kotanja;2017-07-19;Temp;;0.5;23.4;23.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.4) within 0.05; named-method row kept";178412
+bled_zahodna_kotanja;2017-07-19;Temp;;1;23.3;23.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.3) within 0.05; named-method row kept";178413
+bled_zahodna_kotanja;2017-11-21;Temp;;0.5;9.7;9.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.7) within 0.05; named-method row kept";178441
+bled_zahodna_kotanja;2017-11-21;Temp;;1;9.7;9.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 9.7) within 0.05; named-method row kept";178442
+bled_zahodna_kotanja;2018-03-27;Temp;;0.5;5.8;5.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.8) within 0.05; named-method row kept";178470
+bled_zahodna_kotanja;2018-03-27;Temp;;1;5.7;5.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 5.7) within 0.05; named-method row kept";178471
+bled_zahodna_kotanja;2018-07-02;Temp;;0.5;21.0;21.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.0) within 0.05; named-method row kept";178493
+bled_zahodna_kotanja;2018-07-02;Temp;;1;20.9;20.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 20.9) within 0.05; named-method row kept";178494
+bled_zahodna_kotanja;2018-09-03;Temp;;0.5;21.5;21.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.5) within 0.05; named-method row kept";178522
+bled_zahodna_kotanja;2018-09-03;Temp;;1;21.5;21.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.5) within 0.05; named-method row kept";178523
+bled_zahodna_kotanja;2018-09-05;Temp;;0.5;21.3;21.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.3) within 0.05; named-method row kept";178550
+bled_zahodna_kotanja;2018-09-05;Temp;;1;21.3;21.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.3) within 0.05; named-method row kept";178551
+bled_zahodna_kotanja;2018-12-12;Temp;;0.5;8.6;8.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.6) within 0.05; named-method row kept";178579
+bled_zahodna_kotanja;2018-12-12;Temp;;1;8.6;8.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.6) within 0.05; named-method row kept";178580
+bled_zahodna_kotanja;2019-01-24;Temp;;0.5;4.6;4.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.6) within 0.05; named-method row kept";178608
+bled_zahodna_kotanja;2019-01-24;Temp;;1;4.6;4.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.6) within 0.05; named-method row kept";178609
+bled_zahodna_kotanja;2019-02-14;Temp;;0.5;4.3;4.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.3) within 0.05; named-method row kept";178637
+bled_zahodna_kotanja;2019-02-14;Temp;;1;4.3;4.3;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 4.3) within 0.05; named-method row kept";178638
+bled_zahodna_kotanja;2019-03-21;Temp;;0.5;7.1;7.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 7.1) within 0.05; named-method row kept";178666
+bled_zahodna_kotanja;2019-03-21;Temp;;1;6.8;6.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 6.8) within 0.05; named-method row kept";178667
+bled_zahodna_kotanja;2019-04-18;Temp;;0.5;12.1;12.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.1) within 0.05; named-method row kept";178695
+bled_zahodna_kotanja;2019-04-18;Temp;;1;12.0;12.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.0) within 0.05; named-method row kept";178696
+bled_zahodna_kotanja;2019-05-23;Temp;;0.5;13.1;13.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 13.1) within 0.05; named-method row kept";178724
+bled_zahodna_kotanja;2019-05-23;Temp;;1;13.0;13.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 13.0) within 0.05; named-method row kept";178725
+bled_zahodna_kotanja;2019-06-18;Temp;;0.5;22.5;22.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.5) within 0.05; named-method row kept";178752
+bled_zahodna_kotanja;2019-06-18;Temp;;1;22.5;22.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.5) within 0.05; named-method row kept";178753
+bled_zahodna_kotanja;2019-07-15;Temp;;0.5;22.5;22.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.5) within 0.05; named-method row kept";178781
+bled_zahodna_kotanja;2019-07-15;Temp;;1;22.5;22.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 22.5) within 0.05; named-method row kept";178782
+bled_zahodna_kotanja;2019-08-08;Temp;;0.5;24.1;24.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.1) within 0.05; named-method row kept";178807
+bled_zahodna_kotanja;2019-08-08;Temp;;1;24.1;24.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.1) within 0.05; named-method row kept";178808
+bled_zahodna_kotanja;2019-09-12;Temp;;0.5;21.1;21.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.1) within 0.05; named-method row kept";178836
+bled_zahodna_kotanja;2019-09-12;Temp;;1;21.0;21.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 21.0) within 0.05; named-method row kept";178837
+bled_zahodna_kotanja;2019-10-07;Temp;;0.5;17.5;17.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.5) within 0.05; named-method row kept";178865
+bled_zahodna_kotanja;2019-10-07;Temp;;1;17.5;17.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.5) within 0.05; named-method row kept";178866
+bled_zahodna_kotanja;2019-11-25;Temp;;0.5;11.7;11.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.7) within 0.05; named-method row kept";178894
+bled_zahodna_kotanja;2019-11-25;Temp;;1;11.8;11.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.8) within 0.05; named-method row kept";178895
+bled_zahodna_kotanja;2019-12-17;Temp;;0.5;8.5;8.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.5) within 0.05; named-method row kept";178923
+bled_zahodna_kotanja;2019-12-17;Temp;;1;8.4;8.4;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 8.4) within 0.05; named-method row kept";178924
+bled_zahodna_kotanja;2007-09-10;NH4;ISO 7150/1;0.5_10;10.1;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;361658
+bled_zahodna_kotanja;2007-09-10;NO3;ISO 10304-1;28;4.5;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400146
+bled_zahodna_kotanja;2008-03-12;TP;SIST EN ISO 6878:2004;0.5_27;4.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;438678
+bled_zahodna_kotanja;2011-08-01;NH4;SIST ISO 7150-1:1996;0.5_8;10.1;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;361694
+bled_zahodna_kotanja;2012-08-08;NO3;ISO 10304-1;25_28;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400191
+bled_zahodna_kotanja;2014-05-20;NH4;SIST ISO 7150-1:1996;0.5_9;10.1;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;361719
+bled_zahodna_kotanja;2015-08-18;NO3;ISO 10304-1:2007;24_27;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400226
+bled_zahodna_kotanja;2015-09-29;NO3;ISO 10304-1:2007;24_27;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400230
+bled_zahodna_kotanja;2015-11-16;NO3;ISO 10304-1:2007;24_28;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400235
+bled_zahodna_kotanja;2017-07-20;NO3;ISO 10304-1:2007;25;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400258
+bled_zahodna_kotanja;2020-02-11;NH4;SIST ISO 7150-1:1996;0.5_20;10.1;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;361807
+bled_zahodna_kotanja;2020-07-06;NO3;ISO 10304-1:2007;24_28;5.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400299
+bled_zahodna_kotanja;2022-08-01;TP;SIST EN ISO 6878:2004;0.5_9;4.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;438847
+bled_zahodna_kotanja;2023-03-29;NH4;SIST ISO 7150-1:1996;0.5_27;10.1;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;361837
+bled_zahodna_kotanja;2023-08-09;NO3;ISO 10304-1:2007;23_28;5.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400330
+bled_zahodna_kotanja;2024-08-28;TP;SIST EN ISO 6878:2004;0.5_8;4.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;438867
+bled_zahodna_kotanja;2016-08-04;NH4;SIST ISO 7150-1:1996;22_27;77.0;189.05;L1+L2;repeat_kept_L2_mean_flagged;"Differing repeated measurements (77.0, 301.1) kept in Level1 with value_qual=1; Level2 uses the mean with _qual=1";361761
+bled_zahodna_kotanja;2016-08-04;NH4;SIST ISO 7150-1:1996;22_27;301.1;189.05;L1+L2;repeat_kept_L2_mean_flagged;"Differing repeated measurements (77.0, 301.1) kept in Level1 with value_qual=1; Level2 uses the mean with _qual=1";361762
+bled_zahodna_kotanja;2016-08-04;NO3;ISO 10304-1:2007;22_27;202.2;136.35;L1+L2;repeat_kept_L2_mean_flagged;"Differing repeated measurements (202.2, 70.5) kept in Level1 with value_qual=1; Level2 uses the mean with _qual=1";400247
+bled_zahodna_kotanja;2016-08-04;NO3;ISO 10304-1:2007;22_27;70.5;136.35;L1+L2;repeat_kept_L2_mean_flagged;"Differing repeated measurements (202.2, 70.5) kept in Level1 with value_qual=1; Level2 uses the mean with _qual=1";400248
+bled_zahodna_kotanja;2016-08-04;TN;SIST EN 12260:2003;22_27;470.0;520.0;L1+L2;repeat_kept_L2_mean_flagged;"Differing repeated measurements (470.0, 570.0) kept in Level1 with value_qual=1; Level2 uses the mean with _qual=1";288325
+bled_zahodna_kotanja;2016-08-04;TN;SIST EN 12260:2003;22_27;570.0;520.0;L1+L2;repeat_kept_L2_mean_flagged;"Differing repeated measurements (470.0, 570.0) kept in Level1 with value_qual=1; Level2 uses the mean with _qual=1";288326
+bled_zahodna_kotanja;2016-08-04;TP;SIST EN ISO 6878:2004;22_27;15.7;17.3;L1+L2;repeat_kept_L2_mean_flagged;"Differing repeated measurements (15.7, 18.9) kept in Level1 with value_qual=1; Level2 uses the mean with _qual=1";438776
+bled_zahodna_kotanja;2016-08-04;TP;SIST EN ISO 6878:2004;22_27;18.9;17.3;L1+L2;repeat_kept_L2_mean_flagged;"Differing repeated measurements (15.7, 18.9) kept in Level1 with value_qual=1; Level2 uses the mean with _qual=1";438777
+gajsevsko_t1;2016-07-27;NO3;ISO 10304-1:2007;0.5_2;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400345
+gajsevsko_t1;2016-10-27;NH4;SIST ISO 7150-1:1996;0.5_2;7.8;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;361860
+gajsevsko_t1;2020-05-04;NO3;ISO 10304-1:2007;0.5_2;5.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400351
+gajsevsko_t1;2020-06-30;NO3;ISO 10304-1:2007;0.5_2;5.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400352
+ledavsko_t2;2016-07-27;NO3;ISO 10304-1:2007;0.5_1;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400365
+ledavsko_t2;2016-10-27;NO3;ISO 10304-1:2007;0.5_2;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400366
+ledavsko_t2;2018-09-13;NO3;ISO 10304-1:2007;0.5_2;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400369
+ledavsko_t2;2020-05-04;NO3;ISO 10304-1:2007;0.5_2;5.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400371
+ledavsko_t2;2020-09-02;NO3;ISO 10304-1:2007;0.5_2;5.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400373
+ledavsko_t2;2022-04-13;NO3;ISO 10304-1:2007;0.5_1;5.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400375
+pernisko_t1;2019-04-24;Temp;;0.5;15.1;15.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.1) within 0.05; named-method row kept";179732
+pernisko_t1;2019-06-27;Temp;;0.5;25.7;25.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 25.7) within 0.05; named-method row kept";179734
+pernisko_t1;2019-08-22;Temp;;0.5;24.0;24.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 24.0) within 0.05; named-method row kept";179735
+pernisko_t1;2019-10-24;Temp;;0.5;15.6;15.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.6) within 0.05; named-method row kept";179738
+pernisko_t1;2016-03-30;NO3;ISO 10304-1:2007;0.5_1;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400383
+pernisko_t1;2016-05-26;NO3;ISO 10304-1:2007;0.5_1;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400384
+pernisko_t1;2016-07-27;NO3;ISO 10304-1:2007;0.5_1;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400385
+pernisko_t1;2017-03-30;NH4;SIST ISO 7150-1:1996;0.5_1;10.1;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;361901
+pernisko_t1;2017-03-30;NO2;SIST EN 26777:1996;0.5_1;2.13;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;323503
+pernisko_t1;2017-03-30;NO3;ISO 10304-1:2007;0.5_1;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400387
+pernisko_t1;2017-06-01;NO3;ISO 10304-1:2007;0.5_1;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400388
+pernisko_t1;2017-08-24;NO3;ISO 10304-1:2007;0.5_1;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400389
+pernisko_t1;2019-08-22;NO3;ISO 10304-1:2007;0.5;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400393
+pernisko_t1;2007-03-07;Temp;HL series 004165HY;0.5;10.8;10.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (10.8, 10.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89550
+pernisko_t1;2007-03-07;Temp;HL series 004165HY;0.5;10.7;10.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (10.8, 10.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89624
+pernisko_t1;2007-05-10;Temp;HL series 004165HY;0.5;20.4;20.15;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (20.4, 19.9) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89551
+pernisko_t1;2007-05-10;Temp;HL series 004165HY;0.5;19.9;20.15;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (20.4, 19.9) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89625
+pernisko_t1;2008-03-20;Temp;HL series 004165HY;0.5;7.9;7.85;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (7.9, 7.8) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89555
+pernisko_t1;2008-03-20;Temp;HL series 004165HY;0.5;7.8;7.85;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (7.9, 7.8) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89629
+pernisko_t1;2008-04-21;Temp;HL series 004165HY;0.5;19.3;19.25;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.3, 19.2) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89556
+pernisko_t1;2008-04-21;Temp;HL series 004165HY;0.5;19.2;19.25;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.3, 19.2) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89630
+pernisko_t1;2008-06-12;Temp;HL series 004165HY;0.5;20.6;20.55;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (20.6, 20.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89558
+pernisko_t1;2008-06-12;Temp;HL series 004165HY;0.5;20.5;20.55;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (20.6, 20.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89631
+pernisko_t1;2009-05-26;Temp;HL series 004165HY;0.5;24.6;24.55;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (24.6, 24.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89566
+pernisko_t1;2009-05-26;Temp;HL series 004165HY;0.5;24.5;24.55;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (24.6, 24.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89632
+pernisko_t1;2010-03-25;Temp;HL series 004165HY;0.5;12.9;12.95;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (12.9, 13.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89569
+pernisko_t1;2010-03-25;Temp;HL series 004165HY;0.5;13.0;12.95;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (12.9, 13.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89633
+pernisko_t1;2010-05-25;Temp;HL series 004165HY;0.5;19.8;19.4;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.8, 19.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89570
+pernisko_t1;2010-05-25;Temp;HL series 004165HY;0.5;19.0;19.4;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.8, 19.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89634
+pernisko_t1;2010-06-16;Temp;HL series 004165HY;0.5;23.2;23.1;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (23.2, 23.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89571
+pernisko_t1;2010-06-16;Temp;HL series 004165HY;0.5;23.0;23.1;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (23.2, 23.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89635
+pernisko_t1;2010-08-24;Temp;HL series 004165HY;0.5;24.0;23.95;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (24.0, 23.9) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89573
+pernisko_t1;2010-08-24;Temp;HL series 004165HY;0.5;23.9;23.95;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (24.0, 23.9) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89636
+pernisko_t1;2011-03-29;Temp;HL series 004165HY;0.5;11.2;11.15;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.2, 11.1) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89575
+pernisko_t1;2011-03-29;Temp;HL series 004165HY;0.5;11.1;11.15;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.2, 11.1) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89637
+pernisko_t1;2011-09-01;Temp;HL series 004165HY;0.5;22.4;22.45;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (22.4, 22.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89580
+pernisko_t1;2011-09-01;Temp;HL series 004165HY;0.5;22.5;22.45;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (22.4, 22.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89638
+pernisko_t1;2012-01-24;Temp;HL series 004165HY;0.5;4.1;4.05;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (4.1, 4.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89582
+pernisko_t1;2012-01-24;Temp;HL series 004165HY;0.5;4.0;4.05;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (4.1, 4.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89639
+pernisko_t1;2012-02-27;Temp;HL series 004165HY;0.5;4.7;3.85;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (4.7, 3.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89583
+pernisko_t1;2012-02-27;Temp;HL series 004165HY;0.5;3.0;3.85;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (4.7, 3.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89640
+pernisko_t1;2012-03-22;Temp;HL series 004165HY;0.5;11.8;11.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.8, 11.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89584
+pernisko_t1;2012-03-22;Temp;HL series 004165HY;0.5;11.7;11.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.8, 11.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89641
+pernisko_t1;2012-04-24;Temp;HL series 004165HY;0.5;12.1;12.05;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (12.1, 12.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89585
+pernisko_t1;2012-04-24;Temp;HL series 004165HY;0.5;12.0;12.05;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (12.1, 12.0) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89642
+pernisko_t1;2012-07-25;Temp;HL series 004165HY;0.5;21.4;21.35;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (21.4, 21.3) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89588
+pernisko_t1;2012-07-25;Temp;HL series 004165HY;0.5;21.3;21.35;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (21.4, 21.3) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89643
+pernisko_t1;2012-08-30;Temp;HL series 004165HY;0.5;24.2;24.15;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (24.2, 24.1) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89589
+pernisko_t1;2012-08-30;Temp;HL series 004165HY;0.5;24.1;24.15;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (24.2, 24.1) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89644
+pernisko_t1;2012-09-26;Temp;HL series 004165HY;0.5;17.3;17.35;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (17.3, 17.4) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89590
+pernisko_t1;2012-09-26;Temp;HL series 004165HY;0.5;17.4;17.35;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (17.3, 17.4) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89645
+pernisko_t1;2012-11-28;Temp;HL series 004165HY;0.5;9.0;8.9;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (9.0, 8.8) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89592
+pernisko_t1;2012-11-28;Temp;HL series 004165HY;0.5;8.8;8.9;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (9.0, 8.8) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89646
+pernisko_t1;2012-12-21;Temp;HL series 004165HY;0.5;4.3;4.45;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (4.3, 4.6) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89593
+pernisko_t1;2012-12-21;Temp;HL series 004165HY;0.5;4.6;4.45;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (4.3, 4.6) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89647
+pernisko_t1;2014-05-20;Temp;HL series 004165HY;0.5;17.7;17.65;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (17.7, 17.6) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89599
+pernisko_t1;2014-05-20;Temp;HL series 004165HY;0.5;17.6;17.65;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (17.7, 17.6) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89648
+pernisko_t1;2016-03-30;Temp;HL series 004165HY;0.5;11.5;11.45;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.5, 11.4) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89604
+pernisko_t1;2016-03-30;Temp;HL series 004165HY;0.5;11.4;11.45;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.5, 11.4) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89649
+pernisko_t1;2016-05-26;Temp;HL series 004165HY;0.5;19.7;19.6;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.7, 19.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89605
+pernisko_t1;2016-05-26;Temp;HL series 004165HY;0.5;19.5;19.6;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.7, 19.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89650
+pernisko_t1;2016-07-27;Temp;HL series 004165HY;0.5;26.6;26.5;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (26.6, 26.4) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89606
+pernisko_t1;2016-07-27;Temp;HL series 004165HY;0.5;26.4;26.5;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (26.6, 26.4) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89651
+pernisko_t1;2016-10-27;Temp;HL series 004165HY;0.5;12.4;12.3;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (12.4, 12.2) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89607
+pernisko_t1;2016-10-27;Temp;HL series 004165HY;0.5;12.2;12.3;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (12.4, 12.2) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89652
+pernisko_t1;2017-03-30;Temp;HL series 004165HY;0.5;13.7;13.6;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (13.7, 13.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89608
+pernisko_t1;2017-03-30;Temp;HL series 004165HY;0.5;13.5;13.6;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (13.7, 13.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89653
+pernisko_t1;2017-06-01;Temp;HL series 004165HY;0.5;23.8;23.7;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (23.8, 23.6) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89609
+pernisko_t1;2017-06-01;Temp;HL series 004165HY;0.5;23.6;23.7;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (23.8, 23.6) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89654
+pernisko_t1;2017-08-24;Temp;HL series 004165HY;0.5;19.8;19.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.8, 19.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89610
+pernisko_t1;2017-08-24;Temp;HL series 004165HY;0.5;19.7;19.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.8, 19.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89655
+pernisko_t1;2017-10-26;Temp;HL series 004165HY;0.5;9.9;9.8;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (9.9, 9.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89611
+pernisko_t1;2017-10-26;Temp;HL series 004165HY;0.5;9.7;9.8;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (9.9, 9.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89656
+pernisko_t1;2019-08-22;Temp;HL series 004165HY;0.5;24.0;23.85;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (24.0, 23.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89614
+pernisko_t1;2019-08-22;Temp;HL series 004165HY;0.5;23.7;23.85;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (24.0, 23.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89657
+pernisko_t1;2019-10-24;Temp;HL series 004165HY;0.5;15.6;15.55;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (15.6, 15.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89615
+pernisko_t1;2019-10-24;Temp;HL series 004165HY;0.5;15.5;15.55;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (15.6, 15.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89658
+pernisko_t1;2021-03-29;Temp;HL series 004165HY;0.5;11.3;11.2;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.3, 11.1) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89616
+pernisko_t1;2021-03-29;Temp;HL series 004165HY;0.5;11.1;11.2;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.3, 11.1) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89659
+pernisko_t1;2021-05-26;Temp;HL series 004165HY;0.5;14.5;13.85;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (14.5, 13.2) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89617
+pernisko_t1;2021-05-26;Temp;HL series 004165HY;0.5;13.2;13.85;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (14.5, 13.2) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89660
+pernisko_t1;2021-09-21;Temp;HL series 004165HY;0.5;17.8;17.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (17.8, 17.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89618
+pernisko_t1;2021-09-21;Temp;HL series 004165HY;0.5;17.7;17.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (17.8, 17.7) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89661
+pernisko_t1;2021-11-10;Temp;HL series 004165HY;0.5;8.7;8.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (8.7, 8.8) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89619
+pernisko_t1;2021-11-10;Temp;HL series 004165HY;0.5;8.8;8.75;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (8.7, 8.8) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89662
+pernisko_t1;2023-04-17;Temp;HL series 004165HY;0.5;10.9;10.6;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (10.9, 10.3) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89620
+pernisko_t1;2023-04-17;Temp;HL series 004165HY;0.5;10.3;10.6;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (10.9, 10.3) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89663
+pernisko_t1;2023-06-28;Temp;HL series 004165HY;0.5;19.8;19.45;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.8, 19.1) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89621
+pernisko_t1;2023-06-28;Temp;HL series 004165HY;0.5;19.1;19.45;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (19.8, 19.1) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89664
+pernisko_t1;2023-08-31;Temp;HL series 004165HY;0.5;18.7;18.6;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (18.7, 18.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89622
+pernisko_t1;2023-08-31;Temp;HL series 004165HY;0.5;18.5;18.6;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (18.7, 18.5) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89665
+pernisko_t1;2023-11-02;Temp;HL series 004165HY;0.5;11.6;11.5;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.6, 11.4) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89623
+pernisko_t1;2023-11-02;Temp;HL series 004165HY;0.5;11.4;11.5;L1+L2;repeat_kept_L2_mean;"Differing repeated measurements (11.6, 11.4) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean";89666
+slivnisko_t1;2019-04-15;Temp;;0.5;11.9;11.9;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.9) within 0.05; named-method row kept";179758
+slivnisko_t1;2019-04-15;Temp;;1;11.6;11.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 11.6) within 0.05; named-method row kept";179759
+slivnisko_t1;2019-06-13;Temp;;0.5;27.5;27.5;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 27.5) within 0.05; named-method row kept";179767
+slivnisko_t1;2019-06-13;Temp;;1;27.0;27.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 27.0) within 0.05; named-method row kept";179768
+slivnisko_t1;2019-08-07;Temp;;0.5;26.0;26.0;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 26.0) within 0.05; named-method row kept";179776
+slivnisko_t1;2019-08-07;Temp;;1;25.8;25.8;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 25.8) within 0.05; named-method row kept";179777
+slivnisko_t1;2019-10-14;Temp;;0.5;15.6;15.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.6) within 0.05; named-method row kept";179784
+slivnisko_t1;2019-10-14;Temp;;1;15.6;15.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 15.6) within 0.05; named-method row kept";179785
+slivnisko_t1;2016-07-26;NO2;SIST EN 26777:1996;0.5_3;2.13;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;323510
+slivnisko_t1;2016-07-26;NO2;SIST EN 26777:1996;3_5;2.13;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;323511
+slivnisko_t1;2016-07-26;NO3;ISO 10304-1:2007;0.5_3;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400406
+slivnisko_t1;2016-07-26;NO3;ISO 10304-1:2007;3_5;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400407
+slivnisko_t1;2016-10-26;NO3;ISO 10304-1:2007;0.5_5;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400408
+slivnisko_t1;2017-07-27;NO3;ISO 10304-1:2007;0.5_8;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400416
+slivnisko_t1;2017-07-27;NO3;ISO 10304-1:2007;0.5_5;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400417
+slivnisko_t1;2017-07-27;NO3;ISO 10304-1:2007;5_8;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400418
+slivnisko_t1;2019-06-13;NO3;ISO 10304-1:2007;7;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400424
+slivnisko_t1;2019-08-07;NO3;ISO 10304-1:2007;0.5_7;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400425
+slivnisko_t1;2019-08-07;NO3;ISO 10304-1:2007;0.5_3;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400426
+slivnisko_t1;2019-08-07;NO3;ISO 10304-1:2007;3_7;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400427
+slivnisko_t1;2016-07-26;NO3;ISO 10304-1:2007;0.5_3;497.0;;L1+L2;flagged_no3_gt_tn;"NO3 (497) > TN (400) in the same sample; both flagged (value_qual=1) and masked in Level2";400406
+slivnisko_t1;2016-07-26;TN;SIST EN 12260:2003;0.5_3;400.0;;L1+L2;flagged_no3_gt_tn;"NO3 (497) > TN (400) in the same sample; both flagged (value_qual=1) and masked in Level2";288484
+smartinsko_t3;2019-04-02;Temp;;0.5;12.7;12.7;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.7) within 0.05; named-method row kept";179836
+smartinsko_t3;2019-04-02;Temp;;1;12.2;12.2;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 12.2) within 0.05; named-method row kept";179837
+smartinsko_t3;2019-06-05;Temp;;0.5;23.6;23.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.6) within 0.05; named-method row kept";179845
+smartinsko_t3;2019-06-05;Temp;;1;23.1;23.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 23.1) within 0.05; named-method row kept";179846
+smartinsko_t3;2019-08-21;Temp;;0.5;26.6;26.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 26.6) within 0.05; named-method row kept";179854
+smartinsko_t3;2019-08-21;Temp;;1;26.6;26.6;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 26.6) within 0.05; named-method row kept";179855
+smartinsko_t3;2019-10-08;Temp;;0.5;17.1;17.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.1) within 0.05; named-method row kept";179862
+smartinsko_t3;2019-10-08;Temp;;1;17.1;17.1;L1;dropped_duplicate;"Blank-method row duplicates the 'HL series 004165HY' row (value 17.1) within 0.05; named-method row kept";179863
+smartinsko_t3;2016-05-25;NH4;SIST ISO 7150-1:1996;0.5_3;7.8;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;361954
+smartinsko_t3;2016-05-25;NO3;ISO 10304-1:2007;0.5_3;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400440
+smartinsko_t3;2016-05-25;NO3;ISO 10304-1:2007;3_7;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400441
+smartinsko_t3;2016-07-26;NH4;SIST ISO 7150-1:1996;0.5_3;7.8;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;361956
+smartinsko_t3;2016-07-26;NO2;SIST EN 26777:1996;0.5_3;2.13;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;323516
+smartinsko_t3;2016-07-26;NO2;SIST EN 26777:1996;3_7;2.13;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;323517
+smartinsko_t3;2016-07-26;NO3;ISO 10304-1:2007;0.5_3;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400442
+smartinsko_t3;2016-07-26;NO3;ISO 10304-1:2007;3_7;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400443
+smartinsko_t3;2016-07-26;TN;SIST EN 12260:2003;0.5_3;200.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;288520
+smartinsko_t3;2016-10-26;NO3;ISO 10304-1:2007;0.5_8;497.0;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400444
+smartinsko_t3;2017-06-08;NO3;ISO 10304-1:2007;7;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400451
+smartinsko_t3;2017-07-25;NO3;ISO 10304-1:2007;0.5_7;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400452
+smartinsko_t3;2017-07-25;NO3;ISO 10304-1:2007;0.5_4;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400453
+smartinsko_t3;2017-07-25;NO3;ISO 10304-1:2007;6;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400454
+smartinsko_t3;2019-06-05;NO3;ISO 10304-1:2007;7;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400462
+smartinsko_t3;2019-08-21;NO3;ISO 10304-1:2007;0.5_7;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400463
+smartinsko_t3;2019-08-21;NO3;ISO 10304-1:2007;0.5_4;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400464
+smartinsko_t3;2019-08-21;NO3;ISO 10304-1:2007;4_7;5.9;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400465
+smartinsko_t3;2023-07-05;NO3;ISO 10304-1:2007;0.5_8;5.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400475
+smartinsko_t3;2023-07-05;NO3;ISO 10304-1:2007;4_8;5.6;;L1+L2;flagged_below_dl;Source comment 'BELOW DL': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2;400477
+smartinsko_t3;2016-07-26;NO3;ISO 10304-1:2007;0.5_3;497.0;;L1+L2;flagged_no3_gt_tn;"NO3 (497) > TN (200) in the same sample; both flagged (value_qual=1) and masked in Level2";400442
+smartinsko_t3;2016-07-26;NO3;ISO 10304-1:2007;3_7;497.0;;L1+L2;flagged_no3_gt_tn;"NO3 (497) > TN (300) in the same sample; both flagged (value_qual=1) and masked in Level2";400443
+smartinsko_t3;2016-07-26;TN;SIST EN 12260:2003;0.5_3;200.0;;L1+L2;flagged_no3_gt_tn;"NO3 (497) > TN (200) in the same sample; both flagged (value_qual=1) and masked in Level2";288520
+smartinsko_t3;2016-07-26;TN;SIST EN 12260:2003;3_7;300.0;;L1+L2;flagged_no3_gt_tn;"NO3 (497) > TN (300) in the same sample; both flagged (value_qual=1) and masked in Level2";288521

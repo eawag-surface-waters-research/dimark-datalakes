@@ -1,0 +1,953 @@
+{
+  "si_arso": {
+    "source": "SI-ARSO",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Slovenian Environment Agency (ARSO)",
+    "country": "Slovenia",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "WaterTemperature_C",
+        "method": "HL series 004165HY",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "",
+        "method_type": "not_recorded"
+      },
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "HL series Chlorophyll a 007202",
+        "parameter": "Chla_probe",
+        "method_type": "probe"
+      },
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "",
+        "parameter": "Chla_probe",
+        "method_type": "not_recorded"
+      },
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "SIST ISO 10260:2001",
+        "parameter": "Chla_lab",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "Hydro-bios",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "TN_ug/L",
+        "method": "*",
+        "method_type": "lab"
+      },
+      {
+        "variable": "TP_ug/L",
+        "method": "*",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NH4_ug/L",
+        "method": "*",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO3_ug/L",
+        "method": "*",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO2_ug/L",
+        "method": "*",
+        "method_type": "lab"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "BELOW DL": "below_detection_limit",
+      "Sampling location less than 500 m from the shore because of the small size of the lake": "station_metadata"
+    },
+    "unflagged_repeats": [
+      [
+        "pernisko_t1",
+        "Temp"
+      ]
+    ],
+    "parameter_comments": {
+      "Temp": "Probe measurement at a single depth. Methods 'HL series 004165HY' and blank (not recorded) are the same series.",
+      "Chla_probe": "In-situ probe chlorophyll at a single depth. Rows with a blank method and rows with method 'HL series Chlorophyll a 007202' are merged into one series: they never share a date and give the same lab/probe ratio (Bled: 1.30 and 1.32), so blank-method single-depth chlorophyll is assumed to come from the HL probe (to be confirmed by ARSO). The probe reads about 25% below the lab method (Chla_lab); the two are not merged.",
+      "Chla_lab": "Laboratory analysis (SIST ISO 10260:2001) of a water sample, usually mixed over the depth range given by the depth_top / depth_bottom variables.",
+      "Secchi": "Secchi disk (Hydro-bios).",
+      "TN": "Units taken to be ug/L as N (NO3 <= TN in all samples except detection-limit coded ones); to be confirmed by ARSO.",
+      "TP": "Units taken to be ug/L as P; to be confirmed by ARSO.",
+      "NH4": "Units taken to be ug/L as N; to be confirmed by ARSO.",
+      "NO3": "Units taken to be ug/L as N; to be confirmed by ARSO.",
+      "NO2": "Units taken to be ug/L as N; to be confirmed by ARSO."
+    }
+  },
+  "at_ages": {
+    "source": "AT-AGES / Fed. Gov. of Lower Austria",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Austrian Agency for Health and Food Safety (AGES) / Federal Government of Lower Austria",
+    "country": "Austria",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "AlgaeTorch 10",
+        "method_type": "probe",
+        "parameter": "Chla_probe"
+      },
+      {
+        "variable": "NH4_ug/L",
+        "method": "CFA",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO2_ug/L",
+        "method": "CFA",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO3_ug/L",
+        "method": "IC",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "Hydro Bios Kiel (No. 443 594)",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "TP_ug/L",
+        "method": "ICP-MS",
+        "method_type": "lab"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "TetraCon 925 IDS",
+        "method_type": "probe"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "BELOW DL": "below_detection_limit",
+      "at Promenadenweg at the third lamp": "keep",
+      "at the small jetty": "keep",
+      "jetty-inside the U-turn": "keep",
+      "jetty-outside the U-turn": "keep"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {
+      "TP": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NH4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NO3": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NO2": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider)."
+    }
+  },
+  "at_uibk_carinthia": {
+    "source": "AT-UIBK (Amt der Kärntner Landesregierung, Abteilung 8 - Umwelt, Naturschutz und Klimaschutz, Kärntner Institut für Seenforschung)",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Amt der Kärntner Landesregierung, Abteilung 8 - Umwelt, Naturschutz und Klimaschutz, Kärntner Institut für Seenforschung (via University of Innsbruck)",
+    "country": "Austria",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "from Spectrophotometer according to DIN 38412-16",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "NH4_ug/L",
+        "method": "Ammonium as nitrogen (NH4-N): Photometrically with indophenol blue according to MEYNS et al. (1998)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO2_ug/L",
+        "method": "Nitrite as nitrogen (NO2-N): Colorimetric determination after reaction to a red azo dye = GRIESS reaction. Measurement range: 1–500 µg/l nitrite nitrogen. DIN EN 26 777-D10, 1993. Bestimmung von Nitrit – Spektrometrisches Verfahren.",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO3_ug/L",
+        "method": "Nitrate as nitrogen (NO3-N): Photometrically with sodium salicylate according to EAWAG regulations according to SZABO & RIBI (1985)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "white Secchidisc ÖNORM EN ISO 7027",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "TP_ug/L",
+        "method": "Total phosphate as phosphorus (Total-P): Photometrically with ammonium molybdate after pressure digestion with peroxodisulfate according to EBINA et al. (1983)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "From calibrated thermometer in water sampler",
+        "method_type": "thermometer"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "BELOW DL": "below_detection_limit"
+    },
+    "unflagged_repeats": [],
+    "parameter_long_names": {
+      "TN": "total nitrogen as N",
+      "TP": "total phosphorus as P",
+      "NH4": "ammonium as N",
+      "NO3": "nitrate as N",
+      "NO2": "nitrite as N"
+    },
+    "parameter_comments": {
+      "TP": "Basis (as N / as P) stated in the source method description.",
+      "NH4": "Basis (as N / as P) stated in the source method description.",
+      "NO3": "Basis (as N / as P) stated in the source method description.",
+      "NO2": "Basis (as N / as P) stated in the source method description."
+    }
+  },
+  "at_uibk_salzburg": {
+    "source": "AT-UIBK (Amt der Salzburger Landesregierung, Abteilung 7 Wasser, Gewässerschutz)",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Amt der Salzburger Landesregierung, Abteilung 7 Wasser, Gewässerschutz (via University of Innsbruck)",
+    "country": "Austria",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "from Spectrophotometer according to DIN 38412-16",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "NH4_ug/L",
+        "method": "Ammonium as nitrogen (NH4-N): Photometrically with indophenol blue according to MEYNS et al. (1998)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO2_ug/L",
+        "method": "Nitrite as nitrogen (NO2-N): Colorimetric determination after reaction to a red azo dye = GRIESS reaction. Measurement range: 1–500 µg/l nitrite nitrogen. DIN EN 26 777-D10, 1993. Bestimmung von Nitrit – Spektrometrisches Verfahren.",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO3_ug/L",
+        "method": "Nitrate as nitrogen (NO3-N): Photometrically with sodium salicylate according to EAWAG regulations according to SZABO & RIBI (1985)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "white Secchidisc ÖNORM EN ISO 7027",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "TP_ug/L",
+        "method": "Total phosphate as phosphorus (Total-P): Photometrically with ammonium molybdate after pressure digestion with peroxodisulfate according to EBINA et al. (1983)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "From calibrated thermometer in water sampler",
+        "method_type": "thermometer"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "BELOW DL": "below_detection_limit"
+    },
+    "unflagged_repeats": [],
+    "parameter_long_names": {
+      "TN": "total nitrogen as N",
+      "TP": "total phosphorus as P",
+      "NH4": "ammonium as N",
+      "NO3": "nitrate as N",
+      "NO2": "nitrite as N"
+    },
+    "parameter_comments": {
+      "TP": "Basis (as N / as P) stated in the source method description.",
+      "NH4": "Basis (as N / as P) stated in the source method description.",
+      "NO3": "Basis (as N / as P) stated in the source method description.",
+      "NO2": "Basis (as N / as P) stated in the source method description."
+    }
+  },
+  "at_uibk_baw": {
+    "source": "AT-UIBK (Bundesamt für Wasserwirtschaft, Institut für Gewässerökologie und Fischereiwirtschaft)",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Bundesamt für Wasserwirtschaft, Institut für Gewässerökologie und Fischereiwirtschaft (via University of Innsbruck)",
+    "country": "Austria",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "from Spectrophotometer according to DIN 38412-16",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "NH4_ug/L",
+        "method": "Ammonium as nitrogen (NH4-N): Photometrically with indophenol blue according to MEYNS et al. (1998)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO2_ug/L",
+        "method": "Nitrite as nitrogen (NO2-N): Colorimetric determination after reaction to a red azo dye = GRIESS reaction. Measurement range: 1–500 µg/l nitrite nitrogen. DIN EN 26 777-D10, 1993. Bestimmung von Nitrit – Spektrometrisches Verfahren.",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO3_ug/L",
+        "method": "Nitrate as nitrogen (NO3-N): Photometrically with sodium salicylate according to EAWAG regulations according to SZABO & RIBI (1985)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "white Secchidisc ÖNORM EN ISO 7027",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "TP_ug/L",
+        "method": "Total phosphate as phosphorus (Total-P): Photometrically with ammonium molybdate after pressure digestion with peroxodisulfate according to EBINA et al. (1983)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "From calibrated thermometer in water sampler",
+        "method_type": "thermometer"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "BELOW DL": "below_detection_limit"
+    },
+    "unflagged_repeats": [],
+    "parameter_long_names": {
+      "TN": "total nitrogen as N",
+      "TP": "total phosphorus as P",
+      "NH4": "ammonium as N",
+      "NO3": "nitrate as N",
+      "NO2": "nitrite as N"
+    },
+    "parameter_comments": {
+      "TP": "Basis (as N / as P) stated in the source method description.",
+      "NH4": "Basis (as N / as P) stated in the source method description.",
+      "NO3": "Basis (as N / as P) stated in the source method description.",
+      "NO2": "Basis (as N / as P) stated in the source method description."
+    }
+  },
+  "at_uibk_vorarlberg": {
+    "source": "AT-UIBK (Institut für Umwelt und Lebensmittelsicherheit des Landes Vorarlberg, Abteilung Gewässergüte)",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Institut für Umwelt und Lebensmittelsicherheit des Landes Vorarlberg, Abteilung Gewässergüte (via University of Innsbruck)",
+    "country": "Austria",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "from Spectrophotometer according to DIN 38412-16",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "NH4_ug/L",
+        "method": "Ammonium as nitrogen (NH4-N): Photometrically with indophenol blue according to MEYNS et al. (1998)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO2_ug/L",
+        "method": "Nitrite as nitrogen (NO2-N): Colorimetric determination after reaction to a red azo dye = GRIESS reaction. Measurement range: 1–500 µg/l nitrite nitrogen. DIN EN 26 777-D10, 1993. Bestimmung von Nitrit – Spektrometrisches Verfahren.",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO3_ug/L",
+        "method": "Nitrate as nitrogen (NO3-N): Photometrically with sodium salicylate according to EAWAG regulations according to SZABO & RIBI (1985)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "white Secchidisc ÖNORM EN ISO 7027",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "TP_ug/L",
+        "method": "Total phosphate as phosphorus (Total-P): Photometrically with ammonium molybdate after pressure digestion with peroxodisulfate according to EBINA et al. (1983)",
+        "method_type": "lab"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "From calibrated thermometer in water sampler",
+        "method_type": "thermometer"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "BELOW DL": "below_detection_limit"
+    },
+    "unflagged_repeats": [],
+    "parameter_long_names": {
+      "TN": "total nitrogen as N",
+      "TP": "total phosphorus as P",
+      "NH4": "ammonium as N",
+      "NO3": "nitrate as N",
+      "NO2": "nitrite as N"
+    },
+    "parameter_comments": {
+      "TP": "Basis (as N / as P) stated in the source method description.",
+      "NH4": "Basis (as N / as P) stated in the source method description.",
+      "NO3": "Basis (as N / as P) stated in the source method description.",
+      "NO2": "Basis (as N / as P) stated in the source method description."
+    }
+  },
+  "ch_eawag": {
+    "source": "CH-EAWAG",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Eawag, Swiss Federal Institute of Aquatic Science and Technology",
+    "country": "Switzerland",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "Spectrophotometry",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "NH4_ug/L",
+        "method": "Spectrophotometer Agilent Cary 60",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO2_ug/L",
+        "method": "Spectrophotometer Agilent Cary 60",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO3_ug/L",
+        "method": "Metrohm 930 Compact IC Flex",
+        "method_type": "lab"
+      },
+      {
+        "variable": "PO4_ug/L",
+        "method": "Spectrophotometer Agilent Cary 60",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SIO2_ug/L",
+        "method": "Skalar San++ Autoanalyzer",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "Disk black and white",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "TN_ug/L",
+        "method": "Shimadzu TOC-L CSH",
+        "method_type": "lab"
+      },
+      {
+        "variable": "TP_ug/L",
+        "method": "Spectrophotometer Agilent Cary 60",
+        "method_type": "lab"
+      },
+      {
+        "variable": "Turbidity_NTU",
+        "method": "YSI EXO probe",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "",
+        "method_type": "not_recorded"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "BELOW DL": "below_detection_limit",
+      "Detection limit 3 µg/L": "keep",
+      "Detection limit 500 µg/L": "keep",
+      "Detection limit of H2SiO4 500 µg/L": "keep",
+      "Detection limit of NH4-N 5 µg/L": "keep",
+      "Detection limit of NO2-N 1 µg/L": "keep",
+      "Detection limit of NO3-N 100 µg/L": "keep",
+      "Detection limit of PO4-P 1 µg/L": "keep"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {
+      "TN": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "TP": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NH4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NO3": "Reported as ug/L nitrate (NO3), not as N: NO3/TN is about 3.6 in the source values, about 0.8 after conversion to N (x 14.007/62.004). Values are kept as reported (TODO: confirm with the provider). The source comment states a detection limit of 'NO3-N 100 ug/L', which contradicts the values.",
+      "NO2": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "PO4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider)."
+    },
+    "parameter_basis": {
+      "NO3": "NO3"
+    },
+    "parameter_long_names": {
+      "NO3": "nitrate as NO3"
+    }
+  },
+  "de_ukon": {
+    "source": "DE-UKON",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "University of Konstanz, Limnological Institute",
+    "country": "Germany",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "In-house extraction method with EtOH at RT, calibrated against purified Chl-a (Sigma)",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "Disk with a diameter of 25 cm",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "Moldaenke",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "STS",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "YSI Exo2 probe",
+        "method_type": "probe"
+      }
+    ],
+    "comments": {
+      "": "none"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {}
+  },
+  "fr_ola": {
+    "source": "FR-OLA",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "OLA, Observatory on LAkes (INRAE)",
+    "country": "France",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "Spectrophotometry ISO10260:1992",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "sonde ctm1079",
+        "method_type": "probe",
+        "parameter": "Chla_probe"
+      },
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "sonde ctm214",
+        "method_type": "probe",
+        "parameter": "Chla_probe"
+      },
+      {
+        "variable": "NH4_ug/L",
+        "method": "ISO5664:1984",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO2_ug/L",
+        "method": "ISO6777:1984",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO3_ug/L",
+        "method": "ISO10304-1",
+        "method_type": "lab"
+      },
+      {
+        "variable": "PO4_ug/L",
+        "method": "EPA365.3",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SIO2_ug/L",
+        "method": "NFT90-007",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "Disk Black&White",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "Disk INRA",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "TN_ug/L",
+        "method": "EN12260:2003",
+        "method_type": "lab"
+      },
+      {
+        "variable": "TP_ug/L",
+        "method": "EPA365.3",
+        "method_type": "lab"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "",
+        "method_type": "not_recorded"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "Thermometer",
+        "method_type": "thermometer"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "probe ctm214",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "probe exo",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "probe rbr-xrx-620",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "probe sbe cisalb 2",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "probe seabird calb",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde SBE cisalb",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde ctd009",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde ctdNANA9",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde ctm1079",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde ctm1NA79",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde ctm214",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde exo",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde me",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde rbr-xrx-620",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde rbr-xrx-62NA",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "sonde sbe cisalb 2",
+        "method_type": "probe"
+      }
+    ],
+    "comments": {
+      "": "none"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {
+      "TN": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "TP": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NH4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NO3": "Reported as ug/L nitrate (NO3), not as N: NO3/TN is about 3.6 in the source values, about 0.8 after conversion to N (x 14.007/62.004). Values are kept as reported (TODO: confirm with the provider).",
+      "NO2": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "PO4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider)."
+    },
+    "parameter_basis": {
+      "NO3": "NO3"
+    },
+    "parameter_long_names": {
+      "NO3": "nitrate as NO3"
+    }
+  },
+  "it_appa_bz": {
+    "source": "IT-APPA BZ",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Provincial Environmental Protection Agency of Bolzano (APPA Bolzano)",
+    "country": "Italy",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "APAT IRSA 9020 MOD",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "white Secchidisc",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "Hydrolab - DS 5",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "Seba Hydrometrie DST-22",
+        "method_type": "probe"
+      }
+    ],
+    "comments": {
+      "": "none"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {}
+  },
+  "it_appa_tn": {
+    "source": "IT-APPA TN",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Provincial Environmental Protection Agency of Trento (APPA Trento)",
+    "country": "Italy",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "spectrophotometry Lorenzen  (1967)",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "White disk with a diameter of 20 cm",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "Sonda Idronaut 316 S",
+        "method_type": "probe"
+      }
+    ],
+    "comments": {
+      "": "none"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {}
+  },
+  "it_arpal": {
+    "source": "IT-ARPAL",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "IT-ARPAL (TODO: full provider name)",
+    "country": "Italy",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "spectrophotometry Lorenzen  (1967)",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "white disk with a diameter of 40 cm",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "Idronaut Ocean Seven 316Plus",
+        "method_type": "probe"
+      }
+    ],
+    "comments": {
+      "": "none"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {}
+  },
+  "it_arpav": {
+    "source": "IT-ARPAV",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Regional Agency for Environmental Protection of Veneto (ARPAV)",
+    "country": "Italy",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "NH4_ug/L",
+        "method": "ISO 15923-1:2013",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO2_ug/L",
+        "method": "ISO 15923-1:2013",
+        "method_type": "lab"
+      },
+      {
+        "variable": "NO3_ug/L",
+        "method": "APAT CNR IRSA 4020 Man 29 2003",
+        "method_type": "lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "White disk with a diameter of 20 cm",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "TN_ug/L",
+        "method": "UNI EN 12260:2004",
+        "method_type": "lab"
+      },
+      {
+        "variable": "TP_ug/L",
+        "method": "APAT CNR IRSA 4110 A2 Man 29 2003",
+        "method_type": "lab"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "SBE019Plus",
+        "method_type": "probe"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "SBE19Plus",
+        "method_type": "probe"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "BELOW DL": "below_detection_limit",
+      "with bathiscope": "keep"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {
+      "TN": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "TP": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NH4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NO3": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
+      "NO2": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider)."
+    }
+  },
+  "it_fem": {
+    "source": "IT-FEM",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Fondazione Edmund Mach (FEM)",
+    "country": "Italy",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "spectrophotometry Lorenzen  (1967)",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "White disk with a diameter of 20 cm",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "Idronaut Ocean Seven 316Plus",
+        "method_type": "probe"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "with bathiscope": "keep"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {}
+  },
+  "de_lfu_bayern": {
+    "source": "LfU Bayern",
+    "enabled": true,
+    "level0_file": "Database DiMark 19_02_2026(in).csv",
+    "provider": "Bavarian Environment Agency (LfU Bayern)",
+    "country": "Germany",
+    "time_zone": "UTC",
+    "methods": [
+      {
+        "variable": "Chlorophyll_ug/L",
+        "method": "photometric",
+        "method_type": "lab",
+        "parameter": "Chla_lab"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "SecchiDisk_m",
+        "method": "Disk with a diameter of 25 cm",
+        "method_type": "secchi_disk"
+      },
+      {
+        "variable": "WaterTemperature_C",
+        "method": "",
+        "method_type": "not_recorded"
+      }
+    ],
+    "comments": {
+      "": "none",
+      "BELOW DL": "below_detection_limit"
+    },
+    "unflagged_repeats": [],
+    "parameter_comments": {}
+  }
+}
