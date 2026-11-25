@@ -406,98 +406,6 @@
       "NO2": "Basis (as N / as P) stated in the source method description."
     }
   },
-  "ch_eawag": {
-    "source": "CH-EAWAG",
-    "enabled": true,
-    "level0_file": "Database DiMark 19_02_2026(in).csv",
-    "provider": "Eawag, Swiss Federal Institute of Aquatic Science and Technology",
-    "country": "Switzerland",
-    "time_zone": "UTC",
-    "methods": [
-      {
-        "variable": "Chlorophyll_ug/L",
-        "method": "Spectrophotometry",
-        "method_type": "lab",
-        "parameter": "Chla_lab"
-      },
-      {
-        "variable": "NH4_ug/L",
-        "method": "Spectrophotometer Agilent Cary 60",
-        "method_type": "lab"
-      },
-      {
-        "variable": "NO2_ug/L",
-        "method": "Spectrophotometer Agilent Cary 60",
-        "method_type": "lab"
-      },
-      {
-        "variable": "NO3_ug/L",
-        "method": "Metrohm 930 Compact IC Flex",
-        "method_type": "lab"
-      },
-      {
-        "variable": "PO4_ug/L",
-        "method": "Spectrophotometer Agilent Cary 60",
-        "method_type": "lab"
-      },
-      {
-        "variable": "SIO2_ug/L",
-        "method": "Skalar San++ Autoanalyzer",
-        "method_type": "lab"
-      },
-      {
-        "variable": "SecchiDisk_m",
-        "method": "Disk black and white",
-        "method_type": "secchi_disk"
-      },
-      {
-        "variable": "TN_ug/L",
-        "method": "Shimadzu TOC-L CSH",
-        "method_type": "lab"
-      },
-      {
-        "variable": "TP_ug/L",
-        "method": "Spectrophotometer Agilent Cary 60",
-        "method_type": "lab"
-      },
-      {
-        "variable": "Turbidity_NTU",
-        "method": "YSI EXO probe",
-        "method_type": "probe"
-      },
-      {
-        "variable": "WaterTemperature_C",
-        "method": "",
-        "method_type": "not_recorded"
-      }
-    ],
-    "comments": {
-      "": "none",
-      "BELOW DL": "below_detection_limit",
-      "Detection limit 3 µg/L": "keep",
-      "Detection limit 500 µg/L": "keep",
-      "Detection limit of H2SiO4 500 µg/L": "keep",
-      "Detection limit of NH4-N 5 µg/L": "keep",
-      "Detection limit of NO2-N 1 µg/L": "keep",
-      "Detection limit of NO3-N 100 µg/L": "keep",
-      "Detection limit of PO4-P 1 µg/L": "keep"
-    },
-    "unflagged_repeats": [],
-    "parameter_comments": {
-      "TN": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
-      "TP": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
-      "NH4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
-      "NO3": "Reported as ug/L nitrate (NO3), not as N: NO3/TN is about 3.6 in the source values, about 0.8 after conversion to N (x 14.007/62.004). Values are kept as reported (TODO: confirm with the provider). The source comment states a detection limit of 'NO3-N 100 ug/L', which contradicts the values.",
-      "NO2": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
-      "PO4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider)."
-    },
-    "parameter_basis": {
-      "NO3": "NO3"
-    },
-    "parameter_long_names": {
-      "NO3": "nitrate as NO3"
-    }
-  },
   "de_ukon": {
     "source": "DE-UKON",
     "enabled": true,
@@ -711,13 +619,15 @@
       "NH4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
       "NO3": "Reported as ug/L nitrate (NO3), not as N: NO3/TN is about 3.6 in the source values, about 0.8 after conversion to N (x 14.007/62.004). Values are kept as reported (TODO: confirm with the provider).",
       "NO2": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider).",
-      "PO4": "Units ug/L as given in the DiMark export; the N or P basis is not stated in the source (TODO: confirm with the provider)."
+      "PO4": "Reported as ug/L phosphate (PO4), not as P: PO4/TP is about 2.5 in the source values, about 0.8 after conversion to P (x 30.974/94.971). Values are kept as reported (TODO: confirm with the provider)."
     },
     "parameter_basis": {
-      "NO3": "NO3"
+      "NO3": "NO3",
+      "PO4": "PO4"
     },
     "parameter_long_names": {
-      "NO3": "nitrate as NO3"
+      "NO3": "nitrate as NO3",
+      "PO4": "orthophosphate as PO4"
     }
   },
   "it_appa_bz": {

@@ -48,6 +48,14 @@ LAB_VARIABLES = [v for v in SAMPLE_VARIABLES if v != "Secchi"]
 # A lab parameter at a station goes to the LabProfiles (depth, time) product instead of the layered Samples product
 # when most of its samples are taken at single depths and at least this many depths are sampled per date (median).
 LAB_PROFILE_MIN_DEPTHS = 3
+
+
+def within_repeat_tolerance(parameter, values):
+    values = np.asarray(values, dtype=float)
+    spread = values.max() - values.min()
+    if parameter in REPEAT_TOLERANCE_ABS:
+        return spread <= REPEAT_TOLERANCE_ABS[parameter] + 1e-9
+    return spread <= REPEAT_TOLERANCE_REL * abs(values.mean()) + 1e-9
 COMMENT_ACTIONS = ["none", "below_detection_limit", "station_metadata", "keep"]
 
 # Generic attributes; notes/sources.json `parameter_comments` add source-specific comments.
@@ -76,6 +84,14 @@ LAYERS = {
 }
 
 N_PER_NO3 = 14.007 / 62.004  # ug N per ug NO3
+P_PER_PO4 = 30.974 / 94.971  # ug P per ug PO4
+CONSISTENCY_MARGIN = 1.1  # NO3-N <= TN and PO4-P <= TP are only flagged beyond 10% (analytical uncertainty of both)
+# Repeated measurements of one station/date/depth/variable that differ by no more than this are the same
+# measurement (rounding, second sensor): Level2 uses their mean without a flag. Larger differences are flagged.
+REPEAT_TOLERANCE_ABS = {"Temp": 0.2}  # degC
+REPEAT_TOLERANCE_REL = 0.1  # other variables: 10% of the mean
+# A concentration reported as exactly 0 cannot have been measured: it is treated as below the detection limit.
+ZERO_IS_BELOW_DL = ["Chla_lab", "TN", "TP", "NH4", "NO3", "NO2", "PO4", "SiO2"]
 TIME_SOURCE_CODES = {"not_recorded": 0, "recorded": 1, "same_date": 2}
 TIME_COMMENT = ("Time in UTC. Where the source gives a sampling time it is used (a time range as its midpoint); a "
                 "reading without a time takes the mean recorded time of the station's other readings on the same date, "
@@ -109,6 +125,29 @@ def load_config(notes):
             if action not in COMMENT_ACTIONS:
                 raise ValueError("Source {}: unknown comment action {} (use one of {})".format(key, action, COMMENT_ACTIONS))
     return sources, stations
+
+
+def check_events(events_file, stations):
+    """Every manual event must name one station: parameter = "<station_key>/<parameter>" or "<station_key>/All".
+    An event without a station would mask that period at every station of every source."""
+    if not os.path.exists(events_file):
+        return
+    events = pd.read_csv(events_file, sep=";", dtype=str)
+    if list(events.columns) != ["start", "stop", "parameter", "comments"]:
+        raise ValueError("{}: header must be start;stop;parameter;comments".format(events_file))
+    problems = []
+    for n, e in events.iterrows():
+        target = str(e["parameter"])
+        station, _, parameter = target.partition("/")
+        if not parameter or station not in stations or (parameter != "All" and parameter not in VARIABLE_CODES):
+            problems.append("line {}: '{}'".format(n + 2, target))
+        for col in ["start", "stop"]:
+            try:
+                datetime.strptime(str(e[col]), "%Y%m%d %H:%M:%S")
+            except ValueError:
+                problems.append("line {}: {} '{}' is not YYYYMMDD HH:MM:SS".format(n + 2, col, e[col]))
+    if problems:
+        raise ValueError("{}: events must be station-specific ('<station_key>/<parameter or All>'): {}".format(events_file, "; ".join(problems)))
 
 
 def read_level0(file):
@@ -253,6 +292,14 @@ def date_times(df):
     the product's readings in each."""
     means = df.groupby("profile_key")["time"].mean().round()  # whole seconds
     return means.index.values, means.values
+
+
+def station_folder(level_folder, source, station):
+    """data/<Level>/<country>/<lake>/<station>: the source's `country` as lower-case ASCII, then the station's
+    `lake_id` and `station_id` (file names keep the full <lake>_<station> key)."""
+    import unicodedata
+    country = unicodedata.normalize("NFKD", source["country"]).encode("ascii", "ignore").decode().lower().replace(" ", "_")
+    return os.path.join(level_folder, country, station["lake_id"], station["station_id"])
 
 
 def iso_date(t):
@@ -546,7 +593,8 @@ class InsituLevel1(InsituStation):
                 else:
                     seen.append(r["value"])
             if len(keep) > 1:
-                unflagged = [self.key, g["parameter"].iloc[0]] in self.source.get("unflagged_repeats", [])
+                within = within_repeat_tolerance(g["parameter"].iloc[0], self.df.loc[keep, "value"].values)
+                unflagged = within or [self.key, g["parameter"].iloc[0]] in self.source.get("unflagged_repeats", [])
                 self.df.loc[keep, "repeat_group"] = group_id
                 group_id += 1
                 mean = float(self.df.loc[keep, "value"].mean())
@@ -554,8 +602,9 @@ class InsituLevel1(InsituStation):
                     r = self.df.loc[i]
                     if unflagged:
                         self.df.loc[i, "repeat_flag"] = 0
-                        corrections.add(self.key, r, "repeat_kept_L2_mean", "Differing repeated measurements ({}) kept in Level1 unflagged (decision: two genuine readings); Level2 uses the mean".format(
-                            ", ".join(str(v) for v in self.df.loc[keep, "value"])), "L1+L2", new_value=round(mean, 6))
+                        corrections.add(self.key, r, "repeat_kept_L2_mean", "Repeated measurements ({}) {}; kept in Level1 unflagged, Level2 uses the mean".format(
+                            ", ".join(str(v) for v in self.df.loc[keep, "value"]),
+                            "agree within the repeat tolerance" if within else "differ but are listed in unflagged_repeats (two genuine readings)"), "L1+L2", new_value=round(mean, 6))
                     else:
                         self.df.loc[i, "repeat_flag"] = 1
                         corrections.add(self.key, r, "repeat_kept_L2_mean_flagged", "Differing repeated measurements ({}) kept in Level1 with value_qual=1; Level2 uses the mean with _qual=1".format(
@@ -565,30 +614,38 @@ class InsituLevel1(InsituStation):
         self.log.info("{} rows dropped, {} repeat groups kept".format(len(drop), group_id), indent=3)
 
     def flag_below_detection_limit(self, corrections):
-        idx = self.df["comment_action"] == "below_detection_limit"
-        for _, r in self.df[idx].iterrows():
+        commented = self.df["comment_action"] == "below_detection_limit"
+        zero = (self.df["value"] == 0) & self.df["parameter"].isin(ZERO_IS_BELOW_DL) & ~commented
+        idx = commented | zero
+        for _, r in self.df[commented].iterrows():
             corrections.add(self.key, r, "flagged_below_dl", "Source comment '{}': below detection limit, value kept in Level1 with value_qual=1 and masked in Level2".format(r["COMMENTS"]), "L1+L2")
+        for _, r in self.df[zero].iterrows():
+            corrections.add(self.key, r, "flagged_below_dl", "Concentration reported as exactly 0 (no comment): treated as below detection limit, flagged and masked in Level2", "L1+L2")
         self.df.loc[idx, "value_qual"] = 1
         self.log.info("{} below-detection-limit rows flagged".format(int(idx.sum())), indent=2)
 
-    def flag_nitrate_above_total_nitrogen(self, corrections):
-        """NO3 must not exceed TN in the same sample (station, date, depth range). If the source reports nitrate as
-        NO3 (`parameter_basis`: {"NO3": "NO3"} in notes/sources.json) it is converted to N for this check only."""
-        factor = N_PER_NO3 if self.source.get("parameter_basis", {}).get("NO3") == "NO3" else 1.0
+    def flag_inconsistent_nutrients(self, corrections):
+        """A fraction cannot exceed its total in the same sample (station, date, depth range): NO3 (as N) <= TN and
+        PO4 (as P) <= TP, flagged only beyond CONSISTENCY_MARGIN. Sources reporting nitrate / phosphate as the ion
+        (`parameter_basis` in notes/sources.json) are converted for this check only. Both values are flagged."""
+        basis = self.source.get("parameter_basis", {})
         n = 0
-        sub = self.df[self.df["parameter"].isin(["NO3", "TN"])]
-        for _, g in sub.groupby(["profile_key", "DEPTH_m"]):
-            no3 = g[g["parameter"] == "NO3"]
-            tn = g[g["parameter"] == "TN"]
-            if len(no3) == 0 or len(tn) == 0:
-                continue
-            if no3["value"].mean() * factor > tn["value"].mean():
-                n += 1
-                for i, r in pd.concat([no3, tn]).iterrows():
-                    self.df.loc[i, "value_qual"] = 1
-                    corrections.add(self.key, r, "flagged_no3_gt_tn", "NO3{} ({:g}) > TN ({:g}) in the same sample; both flagged (value_qual=1) and masked in Level2".format(
-                        " converted to N" if factor != 1 else "", round(no3["value"].mean() * factor, 3), tn["value"].mean()), "L1+L2")
-        self.log.info("{} samples with NO3 > TN flagged".format(n), indent=2)
+        for part, total, factor, unit in [("NO3", "TN", N_PER_NO3 if basis.get("NO3") == "NO3" else 1.0, "N"),
+                                          ("PO4", "TP", P_PER_PO4 if basis.get("PO4") == "PO4" else 1.0, "P")]:
+            sub = self.df[self.df["parameter"].isin([part, total]) & (self.df["value_qual"] == 0)]
+            for _, g in sub.groupby(["profile_key", "DEPTH_m"]):
+                a = g[g["parameter"] == part]
+                b = g[g["parameter"] == total]
+                if len(a) == 0 or len(b) == 0:
+                    continue
+                if a["value"].mean() * factor > b["value"].mean() * CONSISTENCY_MARGIN:
+                    n += 1
+                    for i, r in pd.concat([a, b]).iterrows():
+                        self.df.loc[i, "value_qual"] = 1
+                        corrections.add(self.key, r, "flagged_{}_gt_{}".format(part.lower(), total.lower()),
+                                        "{} as {} ({:g}) exceeds {} ({:g}) by more than {:.0%} in the same sample; both flagged and masked in Level2".format(
+                                            part, unit, round(a["value"].mean() * factor, 3), total, b["value"].mean(), CONSISTENCY_MARGIN - 1), "L1+L2")
+        self.log.info("{} samples with a nutrient fraction above its total flagged".format(n), indent=2)
         return n
 
     def quality_assurance(self, file_path="notes/quality_assurance.json", maintenance_file="notes/events.csv", corrections=None):
@@ -618,11 +675,9 @@ class InsituLevel1(InsituStation):
             for _, e in events.iterrows():
                 start = datetime.strptime(e["start"], "%Y%m%d %H:%M:%S").replace(tzinfo=timezone.utc).timestamp()
                 stop = datetime.strptime(e["stop"], "%Y%m%d %H:%M:%S").replace(tzinfo=timezone.utc).timestamp()
-                parameter = str(e["parameter"])
-                if "/" in parameter:
-                    station, parameter = parameter.split("/", 1)
-                    if station != self.key:
-                        continue
+                station, parameter = str(e["parameter"]).split("/", 1)  # format checked by check_events()
+                if station != self.key:
+                    continue
                 in_time = (time >= start) & (time <= stop)
                 if parameter != "All":
                     in_time &= self.df["parameter"].values == parameter
@@ -761,10 +816,11 @@ class InsituProfiles(InsituStation):
         self.dimensions["depth"]["dim_size"] = len(self.depths)
         dist = np.abs(df["depth"].values[:, None] - self.depths[None, :])
         nearest = dist.argmin(axis=1)
-        ok = dist[np.arange(len(df)), nearest] <= SNAP_TOLERANCE + 1e-9
+        tolerance = float(self.station.get("snap_tolerance", SNAP_TOLERANCE))
+        ok = dist[np.arange(len(df)), nearest] <= tolerance + 1e-9
         df["grid_depth"] = np.where(ok, self.depths[nearest], np.nan)
         for _, r in df[~ok].iterrows():
-            corrections.add(self.key, r, "L1_only_off_grid", "Depth {} m is more than {} m from the nominal grid; kept in Level1 only".format(r["depth"], SNAP_TOLERANCE), "L2")
+            corrections.add(self.key, r, "L1_only_off_grid", "Depth {} m is more than {} m from the nominal grid; kept in Level1 only".format(r["depth"], tolerance), "L2")
         df = df[ok]
         for _, r in df[np.abs(df["depth"] - df["grid_depth"]) > 1e-9].iterrows():
             corrections.add(self.key, r, "depth_snapped", "Depth {} m snapped to nominal depth {} m in Level2 (old/new values are depths)".format(r["depth"], r["grid_depth"]),
@@ -928,12 +984,15 @@ class InsituSamples(InsituStation):
                 samples[(top, bottom)] = (float(s["value"].mean()), q)
             if parameter == "Secchi":
                 if len(samples) > 1:
-                    # Several different Secchi depths on one date: mean, flagged (same rule as differing repeats)
-                    mean = float(np.mean([v for v, _ in samples.values()]))
+                    # Several Secchi depths on one date: mean; flagged unless they agree within the repeat tolerance
+                    values = [v for v, _ in samples.values()]
+                    mean = float(np.mean(values))
+                    agree = within_repeat_tolerance("Secchi", values)
+                    q = max(q for _, q in samples.values()) if agree else 1
                     for _, r in g.iterrows():
-                        corrections.add(self.key, r, "L2_secchi_mean_flagged", "Several different Secchi depths on the same date ({}); Level2 uses the mean with _qual=1".format(
-                            ", ".join("{:g}".format(v) for v, _ in samples.values())), "L2", new_value=round(mean, 6))
-                    samples = {(np.nan, np.nan): (mean, 1)}
+                        corrections.add(self.key, r, "L2_secchi_mean" if agree else "L2_secchi_mean_flagged", "Several Secchi depths on the same date ({}); Level2 uses the mean{}".format(
+                            ", ".join("{:g}".format(v) for v in values), "" if agree else " with _qual=1"), "L2", new_value=round(mean, 6))
+                    samples = {(np.nan, np.nan): (mean, q)}
                 layers = {"": list(samples)[0]}
             else:
                 try:

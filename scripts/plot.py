@@ -11,7 +11,8 @@ Write one PNG per NetCDF file, mirroring the data folder structure:
 Layouts
 - Level1 (L1_*):           one panel per variable, value against time, coloured by sample mid-point depth;
                            flagged values (value_qual > 0) are drawn as crosses.
-- Level2 Profiles:         one row per variable: profiles (value against depth, one line per date; at most 12 dates
+- Level2 Profiles and
+  LabProfiles:             one row per variable: profiles (value against depth, one line per date; at most 12 dates
                            spread over the file) and a depth-time heatmap. Flagged values are already masked in Level2.
 - Level2 Samples:          one panel per variable, time series of each sample layer (upper, column, mid, deep).
 """
@@ -32,7 +33,8 @@ REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 LAYER_COLORS = {"": "#2a78d6", "_column": "#eb6834", "_mid": "#1baf7a", "_deep": "#eda100"}
 LAYER_LABELS = {"": "upper", "_column": "column", "_mid": "mid", "_deep": "deep"}
 # Single-hue sequential ramps for magnitude.
-HEATMAP_CMAPS = {"Temp": "Reds", "Chla_probe": "Greens", "Turbidity": "Greys"}
+HEATMAP_CMAPS = {"Temp": "Reds", "Chla_probe": "Greens", "Chla_lab": "Greens", "Turbidity": "Greys", "TN": "Purples", "NH4": "Purples",
+                 "NO3": "Purples", "NO2": "Purples", "TP": "Oranges", "PO4": "Oranges", "SiO2": "Greys"}
 # Depth ramp starts at a mid blue so shallow (0.5 m) points stay visible on the white surface.
 DEPTH_CMAP = matplotlib.colors.LinearSegmentedColormap.from_list("depth", plt.get_cmap("Blues")(np.linspace(0.35, 1, 256)))
 TEXT = "#0b0b0b"
@@ -96,9 +98,9 @@ def plot_level1(ds, file):
 
 
 def plot_profiles(ds, file):
-    variables = [v for v in PROFILE_VARIABLES if v in ds and np.isfinite(ds[v].values).any()]
-    if not variables:
-        variables = [v for v in PROFILE_VARIABLES if v in ds][:1]
+    """Probe Profiles and LabProfiles files: every (depth, time) variable."""
+    grid_vars = [v for v in ds.data_vars if ds[v].dims == ("depth", "time") and not v.endswith("_qual")]
+    variables = [v for v in grid_vars if np.isfinite(ds[v].values).any()] or grid_vars[:1]
     t = times(ds)
     depth = ds["depth"].values
     fig, axes = plt.subplots(len(variables), 2, figsize=(12, 3.6 * len(variables) + 0.8), squeeze=False,
@@ -116,7 +118,7 @@ def plot_profiles(ds, file):
         ax.set_ylim(depth.max() + 0.5, 0)
         ax.set_xlabel(label(ds, var))
         ax.set_ylabel("depth (m)")
-        ax.set_title("{} profiles{}".format(var, "" if len(shown) == len(t) else " ({} of {} dates)".format(len(shown), len(t))), loc="left", color=TEXT)
+        ax.set_title("{} profiles{}".format(var, "" if len(shown) == len(t) else " ({} of {} times)".format(len(shown), len(t))), loc="left", color=TEXT)
         if row == 0 and len(shown) > 1:  # dates are the same for every variable: one legend, outside the plot
             ax.legend(fontsize=7, loc="upper left", bbox_to_anchor=(0.0, -0.18), ncol=min(len(t), 4))
         ax = axes[row, 1]
@@ -131,11 +133,11 @@ def plot_profiles(ds, file):
             ax.set_ylabel("{} at {:g} m".format(label(ds, var), depth[0]))
         else:
             ax.text(0.5, 0.5, "no {} data in this file".format(var), transform=ax.transAxes, ha="center", color=MUTED)
-        ax.set_title("{} depth-time ({} dates, {} depths)".format(var, len(t), len(depth)), loc="left", color=TEXT)
+        ax.set_title("{} depth-time ({} times, {} depths)".format(var, len(t), len(depth)), loc="left", color=TEXT)
         set_date_axis(ax)
         ax.set_xlim(t.min() - pd.Timedelta(days=7), t.max() + pd.Timedelta(days=7))
     fig.suptitle(title(ds, file), x=0.01, ha="left", color=TEXT)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0, 1, 1 - 0.75 / fig.get_figheight()))  # room for the two-line title
     return fig
 
 
@@ -171,7 +173,7 @@ def plot_samples(ds, file):
     set_date_axis(axes[-1, 0])
     axes[-1, 0].set_xlim(t.min() - pd.Timedelta(days=7), t.max() + pd.Timedelta(days=7))
     fig.suptitle(title(ds, file), x=0.01, ha="left", color=TEXT)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0, 1, 1 - 0.75 / fig.get_figheight()))  # room for the two-line title
     return fig
 
 
@@ -181,7 +183,7 @@ def plot_file(file, data_root, output):
         ds = ds.load()
     if name.startswith("L1_"):
         fig = plot_level1(ds, file)
-    elif name.startswith("L2_Profiles_"):
+    elif name.startswith("L2_Profiles_") or name.startswith("L2_LabProfiles_"):
         fig = plot_profiles(ds, file)
     elif name.startswith("L2_Samples_"):
         fig = plot_samples(ds, file)

@@ -2,7 +2,7 @@
 import os
 import shutil
 import argparse
-from insitu import InsituLevel1, InsituProfiles, InsituLabProfiles, InsituSamples, Corrections, load_config, read_level0, select_source, sha256
+from insitu import InsituLevel1, InsituProfiles, InsituLabProfiles, InsituSamples, Corrections, load_config, read_level0, select_source, sha256, station_folder, check_events
 from general.functions import logger
 
 
@@ -23,6 +23,7 @@ def main(logs=False, sources=None, stations=None):
     events_file = os.path.join(notes, "events.csv")
     os.makedirs(os.path.join(notes, "corrections"), exist_ok=True)
     source_config, station_config = load_config(notes)
+    check_events(events_file, station_config)
     if sources is None:
         sources = [k for k, s in source_config.items() if s.get("enabled", False)]
     unknown = set(sources) - set(source_config)
@@ -52,7 +53,7 @@ def main(logs=False, sources=None, stations=None):
             station = station_config[key]
             args = (key, station, source_key, source, file, file_sha256)
             for level in ["Level1", "Level2"]:
-                folder = os.path.join(directories[level], key)
+                folder = station_folder(directories[level], source, station)
                 if os.path.isdir(folder):
                     shutil.rmtree(folder)  # full reprocessing from a single export; export() would otherwise append
 
@@ -62,25 +63,25 @@ def main(logs=False, sources=None, stations=None):
                 continue
             sensor.resolve_repeats(corrections)
             sensor.flag_below_detection_limit(corrections)
-            sensor.flag_nitrate_above_total_nitrogen(corrections)
+            sensor.flag_inconsistent_nutrients(corrections)
             sensor.quality_assurance(file_path=qa_file, maintenance_file=events_file, corrections=corrections)
-            edited_files.extend(sensor.write_netcdf(os.path.join(directories["Level1"], key), "L1_{}".format(key)))
+            edited_files.extend(sensor.write_netcdf(station_folder(directories["Level1"], source, station), "L1_{}".format(key)))
             level1 = sensor.df
 
             sensor = InsituProfiles(*args, log=log)
             if sensor.read_data(level1, corrections):
                 sensor.mask_data()
-                edited_files.extend(sensor.export_periods(os.path.join(directories["Level2"], key), "L2_Profiles_{}".format(key)))
+                edited_files.extend(sensor.export_periods(station_folder(directories["Level2"], source, station), "L2_Profiles_{}".format(key)))
 
             sensor = InsituLabProfiles(*args, log=log)
             if sensor.read_data(level1, corrections):
                 sensor.mask_data()
-                edited_files.extend(sensor.export_periods(os.path.join(directories["Level2"], key), "L2_LabProfiles_{}".format(key)))
+                edited_files.extend(sensor.export_periods(station_folder(directories["Level2"], source, station), "L2_LabProfiles_{}".format(key)))
 
             sensor = InsituSamples(*args, log=log)
             if sensor.read_data(level1, corrections):
                 sensor.mask_data()
-                edited_files.extend(sensor.export_periods(os.path.join(directories["Level2"], key), "L2_Samples_{}".format(key)))
+                edited_files.extend(sensor.export_periods(station_folder(directories["Level2"], source, station), "L2_Samples_{}".format(key)))
 
         if stations is None:
             out = corrections.to_csv(os.path.join(notes, "corrections", "{}.csv".format(source_key)))
